@@ -118,6 +118,11 @@ public class Weapon : MonoBehaviour
         {
             yield break;
         }
+
+        if (isOutOfAmmo)
+        {
+            yield break;
+        }
         
         isReloading = true;
         var ammoDiff = weaponData.magSize -  CurrentAmmo;
