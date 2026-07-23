@@ -121,3 +121,16 @@ InitTestScene*.unity*
 /dataSources/
 /dataSources.local.xml
 
+# Rider / JetBrains workspace settings
+.idea/
+*.sln
+*.csproj
+
+# Unity local metadata & generated files
+[Ll]ibrary/
+[Tt]emp/
+[Ob]j/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
