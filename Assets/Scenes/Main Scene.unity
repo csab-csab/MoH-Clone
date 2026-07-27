@@ -2816,7 +2816,7 @@ MonoBehaviour:
   animator: {fileID: 7727686720729984403}
   animController: {fileID: 22100000, guid: 9beb93c4d861d29428939e6942f4aa70, type: 2}
   gunFireSource: {fileID: 1686439908}
-  fireSound: {fileID: 8300000, guid: 81943410723e0264786a86af05ae5ccb, type: 3}
+  fireSound: {fileID: 8300000, guid: 593fd28e18edf6b408264f7c9507bdbc, type: 3}
   ejectionPoint: {fileID: 1951362510}
   shellCasingPrefab: {fileID: 7256876901110497755, guid: c41d71a862120a84dbd1fca5f3babc37, type: 3}
   ejectionForce: 5

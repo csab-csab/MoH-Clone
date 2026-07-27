@@ -6,7 +6,7 @@ using UnityEngine.Animations;
 //The base class for all weapons
 public class Weapon : MonoBehaviour
 {
-    private static readonly int Fire = Animator.StringToHash("Fire");
+    private static readonly int Fire = Animator.StringToHash("Base Layer.fire");
     private static readonly int ReloadAnim = Animator.StringToHash("Reload");
     private static readonly int ReloadSpeed = Animator.StringToHash("Reload Speed");
 
@@ -92,8 +92,10 @@ public class Weapon : MonoBehaviour
             Debug.Log(hit.transform.name); 
         }
         
-        //Trigger animation
-        animator.SetTrigger(Fire);
+        //Play animation
+        //This is better than set trigger because when spamming shoot set trigger can lag behind
+        //making the animation look poo
+        animator.Play(Fire, 0, 0f);
 
         //Shot sound
         PlayShootSound();
