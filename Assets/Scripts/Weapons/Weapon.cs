@@ -48,8 +48,11 @@ public class Weapon : MonoBehaviour
 
     [Header("Audio")]
     [Space(10)]
+    [Header("Audio Source")]
     [SerializeField] private AudioSource gunFireSource;
+    [Header("Audio Clips")]
     [SerializeField] private AudioClip fireSound;
+    [SerializeField] private AudioClip emptySound;
     
     [Header("Visuals")]
     [SerializeField] protected Transform ejectionPoint;
@@ -79,6 +82,8 @@ public class Weapon : MonoBehaviour
         
         if (CurrentAmmo <= 0)
         {
+            PlayEmptyClick();
+            Debug.Log("Playing empty click");
             return;
         }
 
@@ -102,6 +107,8 @@ public class Weapon : MonoBehaviour
        
         //used to draw raycast gizmo
         _drawFrom = raycastFrom;
+        
+        EjectShellCasing(raycastFrom);
         
         SpendAmmo();
         
@@ -186,7 +193,7 @@ public class Weapon : MonoBehaviour
     
     #region Visuals
     
-    protected virtual void EjectShellCasing(Transform raycastFrom)
+    private void EjectShellCasing(Transform raycastFrom)
     {
         //Shell casing ejection logic
         var shellCasing = Instantiate(shellCasingPrefab, ejectionPoint.transform.position, 
@@ -212,7 +219,11 @@ public class Weapon : MonoBehaviour
         //Use one shot to ensure tail of the sound doesn't get cut off when firing multiple times
         gunFireSource.PlayOneShot(fireSound);
     }
-    
+
+    private void PlayEmptyClick()
+    {
+        gunFireSource.PlayOneShot(emptySound);
+    }
     #endregion
     
     #region Getter Functions

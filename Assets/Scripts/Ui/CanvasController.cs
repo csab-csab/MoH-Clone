@@ -26,8 +26,14 @@ public class CanvasController : MonoBehaviour
   {
     if (currentAmmmo <= 0)
     {
-      ammoText.text = "OutOfAmmo!";
+      ammoText.text = "Out Of Ammo!";
+      ammoText.color = Color.red;
       return;
+    }
+
+    if (ammoText.color == Color.red)
+    {
+      ammoText.color = Color.white;
     }
     ammoText.text = $"{currentAmmmo}/{carriedAmmmo}";
   }

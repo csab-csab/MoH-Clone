@@ -20,16 +20,11 @@ public class M1Garand : Weapon
     
     public override void Shoot(Transform raycastFrom)
     {
-        if (CurrentAmmo <= 0)
-        {
-            return;
-        }
-        
         base.Shoot(raycastFrom);
 
-        base.EjectShellCasing(raycastFrom);
-        
-        if (CurrentAmmo > 0)
+        //don't eject clip if mag is not empty, if we are reloading,
+        //or if we are out of ammo
+        if (CurrentAmmo > 0 || IsReloading() || isOutOfAmmo)
         {
             return;
         }
