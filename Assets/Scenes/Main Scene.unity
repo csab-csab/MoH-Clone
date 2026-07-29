@@ -3048,7 +3048,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634016543d7f03141a8a4fe4e819e463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetFrameRate
-  targetFrameRate: 30
+  presentationSettingsData:
+    target_frame_rate: 60
+    target_resolution:
+      width: 640
+      height: 480
 --- !u!4 &1844310860
 Transform:
   m_ObjectHideFlags: 0

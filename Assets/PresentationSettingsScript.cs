@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -9,6 +10,7 @@ public class PresentationSettingsData
 {
     public int target_frame_rate;
 
+    [System.Serializable]
     public struct TargetResolutionStruct
     {
         public int width;
@@ -49,6 +51,8 @@ public class PresentationSettingsScript : MonoBehaviour
            //this automatically maps our JSON file to our wrapper class above
            presentationSettingsData = JsonUtility.FromJson<PresentationSettingsData>(jsonContent);
            
+           print(presentationSettingsData.target_resolution.width);
+           
            ChangeResolution();
            ChangeFrameRate();
         }
@@ -60,7 +64,7 @@ public class PresentationSettingsScript : MonoBehaviour
     
     private void ChangeResolution()
     {
-        Screen.SetResolution(resolutionWidth, resolutionHeight, FullScreenMode.Windowed);
+        Screen.SetResolution(resolutionWidth, resolutionHeight, FullScreenMode.FullScreenWindow);
     }
     
     private void ChangeFrameRate()
