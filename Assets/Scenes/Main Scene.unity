@@ -694,6 +694,7 @@ MonoBehaviour:
   animController: {fileID: 22100000, guid: 84796cb59980ee945bc7a764f96fb7b9, type: 2}
   gunFireSource: {fileID: 567685400}
   fireSound: {fileID: 8300000, guid: 81943410723e0264786a86af05ae5ccb, type: 3}
+  emptySound: {fileID: 8300000, guid: 4a6153187f392db43a3e1652761cd6ac, type: 3}
   ejectionPoint: {fileID: 1377049976}
   shellCasingPrefab: {fileID: 5283394546888904357, guid: 1fb131415ee94404f882c2e6be1fee30, type: 3}
   ejectionForce: 5
@@ -2805,9 +2806,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1452698440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5b40eee76697b04692bba14a32c0d5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b90e701118c66c419d1b6e238dca906, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::M1911
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
   weaponData: {fileID: 11400000, guid: 783caec27e64ab64fb4d3606bdd060ca, type: 2}
   weaponIdentity: 1
   raycastLayers:
@@ -2817,6 +2818,7 @@ MonoBehaviour:
   animController: {fileID: 22100000, guid: 9beb93c4d861d29428939e6942f4aa70, type: 2}
   gunFireSource: {fileID: 1686439908}
   fireSound: {fileID: 8300000, guid: 593fd28e18edf6b408264f7c9507bdbc, type: 3}
+  emptySound: {fileID: 8300000, guid: 4a6153187f392db43a3e1652761cd6ac, type: 3}
   ejectionPoint: {fileID: 1951362510}
   shellCasingPrefab: {fileID: 7256876901110497755, guid: c41d71a862120a84dbd1fca5f3babc37, type: 3}
   ejectionForce: 5

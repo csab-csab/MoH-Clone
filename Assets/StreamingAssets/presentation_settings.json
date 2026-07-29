@@ -1,0 +1,8 @@
+{
+  "target_resolution": {
+    "width": 640,
+    "height": 480
+  },
+  
+  "target_frame_rate": 60
+}
