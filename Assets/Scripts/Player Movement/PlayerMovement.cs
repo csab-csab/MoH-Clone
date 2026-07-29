@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     private void MovePlayer()
     {
-        if (_inputHandler.moveInput.x > 0 || _inputHandler.moveInput.y > 0)
+        if (_inputHandler.moveInput.x != 0 || _inputHandler.moveInput.y != 0)
         {
             _isMoving = true;
         }
