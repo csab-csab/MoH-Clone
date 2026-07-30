@@ -123,16 +123,11 @@ public class Weapon : MonoBehaviour
 
     public virtual IEnumerator Reload()
     {
-        if (isReloading)
+        if (isReloading || isOutOfAmmo || CurrentAmmo >= weaponData.magSize)
         {
             yield break;
         }
 
-        if (isOutOfAmmo)
-        {
-            yield break;
-        }
-        
         isReloading = true;
         var ammoDiff = weaponData.magSize -  CurrentAmmo;
         
