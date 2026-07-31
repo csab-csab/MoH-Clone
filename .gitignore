@@ -126,6 +126,9 @@ InitTestScene*.unity*
 *.sln
 *.csproj
 
+#sensitive stuff
+*censored*
+
 # Unity local metadata & generated files
 [Ll]ibrary/
 [Tt]emp/
