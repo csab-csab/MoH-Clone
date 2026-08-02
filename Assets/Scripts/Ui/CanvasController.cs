@@ -19,12 +19,13 @@ public class CanvasController : MonoBehaviour
 
   public void DisplayReloadText()
   {
+    ammoText.color = Color.white;
     ammoText.text = "Reloading...";
   }
   
-  public void UpdateAmmmoText(int currentAmmmo, int carriedAmmmo)
+  public void UpdateAmmoText(int currentAmmo, int carriedAmmo)
   {
-    if (currentAmmmo <= 0)
+    if (currentAmmo <= 0)
     {
       ammoText.text = "Out Of Ammo!";
       ammoText.color = Color.red;
@@ -35,7 +36,7 @@ public class CanvasController : MonoBehaviour
     {
       ammoText.color = Color.white;
     }
-    ammoText.text = $"{currentAmmmo}/{carriedAmmmo}";
+    ammoText.text = $"{currentAmmo}/{carriedAmmo}";
   }
   
 }

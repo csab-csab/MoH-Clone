@@ -16,6 +16,8 @@ public class InputHandler : MonoBehaviour
     
     public bool isFireHeld {get; private set;}
     
+    public bool interactPressed {get; private set;}
+    
 
     #region Event Declarations
 
@@ -40,7 +42,9 @@ public class InputHandler : MonoBehaviour
     {
         //create instance of Input Reader
         _controls = new InputReader.InputReader();
-        
+
+        #region Player Inputs
+
         //subscribe to input events
         _controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         _controls.Player.Look.performed += ctx => lookInput = ctx.ReadValue<Vector2>();
@@ -66,7 +70,15 @@ public class InputHandler : MonoBehaviour
             jumpTriggered = true;
         };  
         
-         //Used for full auto weapon check
+        //Interact
+        _controls.Player.Interact.started += ctx => interactPressed = true;
+        _controls.Player.Interact.canceled += ctx => interactPressed = false;
+
+        #endregion
+
+        #region Weapon Inputs
+
+        //Used for full auto weapon check
         _controls.Weapons.Fire.started += ctx => isFireHeld = true;
         _controls.Weapons.Fire.canceled += ctx => isFireHeld = false;
 
@@ -74,17 +86,17 @@ public class InputHandler : MonoBehaviour
         
         //Reload
         _controls.Weapons.Reload.performed += ctx => OnReloadTriggered?.Invoke();
-        
-        
+
         //Switch Weapon
         _controls.Weapons.ScrollWheelSwitch.started += ctx => scrollInputNorm = ctx.ReadValue<Vector2>().normalized;
         _controls.Weapons.ScrollWheelSwitch.canceled += ctx => scrollInputNorm = Vector2.zero;
         
         _controls.Weapons.SwitchToPrimary.performed += ctx => OnSwitchToPrimaryBtnPressed?.Invoke(1);
-       _controls.Weapons.SwitchToSecondary.performed += ctx => OnSwitchToSecondaryBtnPressed?.Invoke(-1);
+        _controls.Weapons.SwitchToSecondary.performed += ctx => OnSwitchToSecondaryBtnPressed?.Invoke(-1);
        
-       _controls.Weapons.SwitchToPrimary.performed += ctx => isSprinting = false;
-       
+        _controls.Weapons.SwitchToPrimary.performed += ctx => isSprinting = false;
+
+        #endregion
     }
 
     public void ResetJump()

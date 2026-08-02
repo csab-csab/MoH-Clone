@@ -56,7 +56,7 @@ public class WeaponManager : MonoBehaviour
   {
     //Displays the name of the currently equipped weapon when starting the game
     canvasController.UpdateWeaponNameText(activeWeaponScript.ReturnWeaponName());
-    canvasController.UpdateAmmmoText(activeWeaponScript.ReturnAmmo()._currentAmmo, 
+    canvasController.UpdateAmmoText(activeWeaponScript.ReturnAmmo()._currentAmmo, 
       activeWeaponScript.ReturnAmmo()._carriedAmmo);
   }
   
@@ -167,7 +167,7 @@ public class WeaponManager : MonoBehaviour
 
       //Update weapon ui such as weapon name and ammo
       canvasController.UpdateWeaponNameText(activeWeaponScript.ReturnWeaponName());
-      canvasController.UpdateAmmmoText(activeWeaponScript.ReturnAmmo()._currentAmmo, 
+      canvasController.UpdateAmmoText(activeWeaponScript.ReturnAmmo()._currentAmmo, 
         activeWeaponScript.ReturnAmmo()._carriedAmmo);
     
       activeWeaponScript.SetupOrSwapAnimator();

@@ -2,15 +2,27 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Script References")]
+    [SerializeField] private InputHandler inputHandler;
+    
+    [Header("Interaction Properties")]
+    [Tooltip("Transform where raycast originates from")]
+    [SerializeField] private Transform rayCastFrom;
+    [SerializeField] private float rayCastRange;
+    [SerializeField] private LayerMask raycastMask;
 
-    // Update is called once per frame
     void Update()
     {
+        if (!Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var hit, rayCastRange, raycastMask)) return;
         
+        DoorScript doorScript;
+        if (hit.transform.TryGetComponent<DoorScript>(out doorScript))
+        {
+            Debug.Log("Press E to open door");
+            if (inputHandler.interactPressed)
+            {
+                doorScript.InteractWithDoor(); 
+            }
+        }
     }
 }

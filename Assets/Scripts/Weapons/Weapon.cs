@@ -115,7 +115,7 @@ public class Weapon : MonoBehaviour
         //Update ui
         if (_canvasController != null)
         {
-            _canvasController.UpdateAmmmoText(CurrentAmmo, _currentCarriedAmmo);
+            _canvasController.UpdateAmmoText(CurrentAmmo, _currentCarriedAmmo);
         }
         
         print($"Current Ammo: {CurrentAmmo}/{_currentCarriedAmmo}");
@@ -160,7 +160,7 @@ public class Weapon : MonoBehaviour
         //Update ui
         if (_canvasController != null)
         {
-            _canvasController.UpdateAmmmoText(CurrentAmmo, _currentCarriedAmmo);
+            _canvasController.UpdateAmmoText(CurrentAmmo, _currentCarriedAmmo);
         }
     }
 
@@ -200,7 +200,7 @@ public class Weapon : MonoBehaviour
         //Add some random spin so it doesn't look like a static brick
         shellCasingRb.AddTorque(Random.insideUnitSphere * 5f, ForceMode.Impulse);
         
-        Destroy(shellCasing, 3);
+        Destroy(shellCasing, 3); 
     }
 
     #endregion
