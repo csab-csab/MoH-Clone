@@ -1,173 +1,504 @@
 fileFormatVersion: 2
 guid: d4a1a4a4b01e5f74b898ca905ae50664
-timeCreated: 1512310525
-licenseType: Store
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106450
+  packageName: POLYGON WW2 German Soilders
+  packageVersion: 1.0
+  assetPath: Assets/WW2_German_soilders/Soilders/FBX_soilders/Schutzstaffel_b/mesh/SchutzStaffel_B.fbx
+  uploadId: 222933
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bone
-    100002: Bone.001
-    100004: Bone.002
-    100006: Bone.003
-    100008: Bone.004
-    100010: Bone.005
-    100012: Bone.006
-    100014: Bone.007
-    100016: Bone.008
-    100018: Bone.008_end
-    100020: Bone.009
-    100022: Bone.009_end
-    100024: Bone.010
-    100026: Bone.011
-    100028: Bone.012
-    100030: Bone.012_end
-    100032: Bone.013
-    100034: Bone.013_end
-    100036: Bone.014
-    100038: Bone.015
-    100040: Bone.016
-    100042: Bone.017
-    100044: Bone.018
-    100046: Bone.019
-    100048: Bone.020
-    100050: Bone.021
-    100052: Bone.022
-    100054: Bone.022_end
-    100056: Bone.023
-    100058: Bone.023_end
-    100060: Bone.024
-    100062: Bone.025
-    100064: Bone.025_end
-    100066: Flammenwerfer
-    100068: Helmet
-    100070: Jacket
-    100072: K98
-    100074: Luger_P08
-    100076: MG42
-    100078: MP40
-    100080: Panzerfaust_launcher
-    100082: PanzerSchreck
-    100084: //RootNode
-    100086: Schutzstaffel_B
-    100088: SchutzStaffel_B_rig
-    100090: STG44
-    100092: Throusers
-    100094: Weapon_handle
-    100096: Weapon_handle.001
-    100098: Weapon_handle.001_end
-    100100: Weapon_handle.002
-    100102: Weapon_handle.002_end
-    100104: Weapon_handle.003
-    100106: Weapon_handle.003_end
-    100108: Weapon_handle.004
-    100110: Weapon_handle.004_end
-    100112: Weapon_handle_end
-    400000: Bone
-    400002: Bone.001
-    400004: Bone.002
-    400006: Bone.003
-    400008: Bone.004
-    400010: Bone.005
-    400012: Bone.006
-    400014: Bone.007
-    400016: Bone.008
-    400018: Bone.008_end
-    400020: Bone.009
-    400022: Bone.009_end
-    400024: Bone.010
-    400026: Bone.011
-    400028: Bone.012
-    400030: Bone.012_end
-    400032: Bone.013
-    400034: Bone.013_end
-    400036: Bone.014
-    400038: Bone.015
-    400040: Bone.016
-    400042: Bone.017
-    400044: Bone.018
-    400046: Bone.019
-    400048: Bone.020
-    400050: Bone.021
-    400052: Bone.022
-    400054: Bone.022_end
-    400056: Bone.023
-    400058: Bone.023_end
-    400060: Bone.024
-    400062: Bone.025
-    400064: Bone.025_end
-    400066: Flammenwerfer
-    400068: Helmet
-    400070: Jacket
-    400072: K98
-    400074: Luger_P08
-    400076: MG42
-    400078: MP40
-    400080: Panzerfaust_launcher
-    400082: PanzerSchreck
-    400084: //RootNode
-    400086: Schutzstaffel_B
-    400088: SchutzStaffel_B_rig
-    400090: STG44
-    400092: Throusers
-    400094: Weapon_handle
-    400096: Weapon_handle.001
-    400098: Weapon_handle.001_end
-    400100: Weapon_handle.002
-    400102: Weapon_handle.002_end
-    400104: Weapon_handle.003
-    400106: Weapon_handle.003_end
-    400108: Weapon_handle.004
-    400110: Weapon_handle.004_end
-    400112: Weapon_handle_end
-    4300000: Helmet
-    4300002: Throusers
-    4300004: Jacket
-    4300006: STG44
-    4300008: Panzerfaust_launcher
-    4300010: PanzerSchreck
-    4300012: Flammenwerfer
-    4300014: MG42
-    4300016: Luger_P08
-    4300018: K98
-    4300020: MP40
-    4300022: Schutzstaffel_B
-    7400000: SchutzStaffel_B_rig|Deleted
-    7400002: SchutzStaffel_B_rig|Flammenwerfer_idle
-    7400004: SchutzStaffel_B_rig|Idle
-    7400006: SchutzStaffel_B_rig|K98_aim
-    7400008: SchutzStaffel_B_rig|K98_idle
-    7400010: SchutzStaffel_B_rig|K98_reload
-    7400012: SchutzStaffel_B_rig|K98_reload_Shoot
-    7400014: SchutzStaffel_B_rig|Luger_aim
-    7400016: SchutzStaffel_B_rig|Luger_idle
-    7400018: SchutzStaffel_B_rig|Luger_reload
-    7400020: SchutzStaffel_B_rig|MG42_aim
-    7400022: SchutzStaffel_B_rig|MG42_idle
-    7400024: SchutzStaffel_B_rig|MG42_reload
-    7400026: SchutzStaffel_B_rig|MP40_aim
-    7400028: SchutzStaffel_B_rig|MP40_idle
-    7400030: SchutzStaffel_B_rig|MP40_reload
-    7400032: SchutzStaffel_B_rig|Panzerfaust_idle
-    7400034: SchutzStaffel_B_rig|Panzerfaust_reload
-    7400036: SchutzStaffel_B_rig|Panzerschreck_idle
-    7400038: SchutzStaffel_B_rig|Panzerschreck_Reload
-    7400040: SchutzStaffel_B_rig|STG44_Aim
-    7400042: SchutzStaffel_B_rig|STG44_idle
-    7400044: SchutzStaffel_B_rig|STG44_reload
-    7400046: SchutzStaffel_B_rig|Walk
-    9500000: //RootNode
-    13700000: Flammenwerfer
-    13700002: Helmet
-    13700004: Jacket
-    13700006: K98
-    13700008: Luger_P08
-    13700010: MG42
-    13700012: MP40
-    13700014: Panzerfaust_launcher
-    13700016: PanzerSchreck
-    13700018: Schutzstaffel_B
-    13700020: STG44
-    13700022: Throusers
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone
+  - first:
+      1: 100002
+    second: Bone.001
+  - first:
+      1: 100004
+    second: Bone.002
+  - first:
+      1: 100006
+    second: Bone.003
+  - first:
+      1: 100008
+    second: Bone.004
+  - first:
+      1: 100010
+    second: Bone.005
+  - first:
+      1: 100012
+    second: Bone.006
+  - first:
+      1: 100014
+    second: Bone.007
+  - first:
+      1: 100016
+    second: Bone.008
+  - first:
+      1: 100018
+    second: Bone.008_end
+  - first:
+      1: 100020
+    second: Bone.009
+  - first:
+      1: 100022
+    second: Bone.009_end
+  - first:
+      1: 100024
+    second: Bone.010
+  - first:
+      1: 100026
+    second: Bone.011
+  - first:
+      1: 100028
+    second: Bone.012
+  - first:
+      1: 100030
+    second: Bone.012_end
+  - first:
+      1: 100032
+    second: Bone.013
+  - first:
+      1: 100034
+    second: Bone.013_end
+  - first:
+      1: 100036
+    second: Bone.014
+  - first:
+      1: 100038
+    second: Bone.015
+  - first:
+      1: 100040
+    second: Bone.016
+  - first:
+      1: 100042
+    second: Bone.017
+  - first:
+      1: 100044
+    second: Bone.018
+  - first:
+      1: 100046
+    second: Bone.019
+  - first:
+      1: 100048
+    second: Bone.020
+  - first:
+      1: 100050
+    second: Bone.021
+  - first:
+      1: 100052
+    second: Bone.022
+  - first:
+      1: 100054
+    second: Bone.022_end
+  - first:
+      1: 100056
+    second: Bone.023
+  - first:
+      1: 100058
+    second: Bone.023_end
+  - first:
+      1: 100060
+    second: Bone.024
+  - first:
+      1: 100062
+    second: Bone.025
+  - first:
+      1: 100064
+    second: Bone.025_end
+  - first:
+      1: 100066
+    second: Flammenwerfer
+  - first:
+      1: 100068
+    second: Helmet
+  - first:
+      1: 100070
+    second: Jacket
+  - first:
+      1: 100072
+    second: K98
+  - first:
+      1: 100074
+    second: Luger_P08
+  - first:
+      1: 100076
+    second: MG42
+  - first:
+      1: 100078
+    second: MP40
+  - first:
+      1: 100080
+    second: Panzerfaust_launcher
+  - first:
+      1: 100082
+    second: PanzerSchreck
+  - first:
+      1: 100084
+    second: //RootNode
+  - first:
+      1: 100086
+    second: Schutzstaffel_B
+  - first:
+      1: 100088
+    second: SchutzStaffel_B_rig
+  - first:
+      1: 100090
+    second: STG44
+  - first:
+      1: 100092
+    second: Throusers
+  - first:
+      1: 100094
+    second: Weapon_handle
+  - first:
+      1: 100096
+    second: Weapon_handle.001
+  - first:
+      1: 100098
+    second: Weapon_handle.001_end
+  - first:
+      1: 100100
+    second: Weapon_handle.002
+  - first:
+      1: 100102
+    second: Weapon_handle.002_end
+  - first:
+      1: 100104
+    second: Weapon_handle.003
+  - first:
+      1: 100106
+    second: Weapon_handle.003_end
+  - first:
+      1: 100108
+    second: Weapon_handle.004
+  - first:
+      1: 100110
+    second: Weapon_handle.004_end
+  - first:
+      1: 100112
+    second: Weapon_handle_end
+  - first:
+      4: 400000
+    second: Bone
+  - first:
+      4: 400002
+    second: Bone.001
+  - first:
+      4: 400004
+    second: Bone.002
+  - first:
+      4: 400006
+    second: Bone.003
+  - first:
+      4: 400008
+    second: Bone.004
+  - first:
+      4: 400010
+    second: Bone.005
+  - first:
+      4: 400012
+    second: Bone.006
+  - first:
+      4: 400014
+    second: Bone.007
+  - first:
+      4: 400016
+    second: Bone.008
+  - first:
+      4: 400018
+    second: Bone.008_end
+  - first:
+      4: 400020
+    second: Bone.009
+  - first:
+      4: 400022
+    second: Bone.009_end
+  - first:
+      4: 400024
+    second: Bone.010
+  - first:
+      4: 400026
+    second: Bone.011
+  - first:
+      4: 400028
+    second: Bone.012
+  - first:
+      4: 400030
+    second: Bone.012_end
+  - first:
+      4: 400032
+    second: Bone.013
+  - first:
+      4: 400034
+    second: Bone.013_end
+  - first:
+      4: 400036
+    second: Bone.014
+  - first:
+      4: 400038
+    second: Bone.015
+  - first:
+      4: 400040
+    second: Bone.016
+  - first:
+      4: 400042
+    second: Bone.017
+  - first:
+      4: 400044
+    second: Bone.018
+  - first:
+      4: 400046
+    second: Bone.019
+  - first:
+      4: 400048
+    second: Bone.020
+  - first:
+      4: 400050
+    second: Bone.021
+  - first:
+      4: 400052
+    second: Bone.022
+  - first:
+      4: 400054
+    second: Bone.022_end
+  - first:
+      4: 400056
+    second: Bone.023
+  - first:
+      4: 400058
+    second: Bone.023_end
+  - first:
+      4: 400060
+    second: Bone.024
+  - first:
+      4: 400062
+    second: Bone.025
+  - first:
+      4: 400064
+    second: Bone.025_end
+  - first:
+      4: 400066
+    second: Flammenwerfer
+  - first:
+      4: 400068
+    second: Helmet
+  - first:
+      4: 400070
+    second: Jacket
+  - first:
+      4: 400072
+    second: K98
+  - first:
+      4: 400074
+    second: Luger_P08
+  - first:
+      4: 400076
+    second: MG42
+  - first:
+      4: 400078
+    second: MP40
+  - first:
+      4: 400080
+    second: Panzerfaust_launcher
+  - first:
+      4: 400082
+    second: PanzerSchreck
+  - first:
+      4: 400084
+    second: //RootNode
+  - first:
+      4: 400086
+    second: Schutzstaffel_B
+  - first:
+      4: 400088
+    second: SchutzStaffel_B_rig
+  - first:
+      4: 400090
+    second: STG44
+  - first:
+      4: 400092
+    second: Throusers
+  - first:
+      4: 400094
+    second: Weapon_handle
+  - first:
+      4: 400096
+    second: Weapon_handle.001
+  - first:
+      4: 400098
+    second: Weapon_handle.001_end
+  - first:
+      4: 400100
+    second: Weapon_handle.002
+  - first:
+      4: 400102
+    second: Weapon_handle.002_end
+  - first:
+      4: 400104
+    second: Weapon_handle.003
+  - first:
+      4: 400106
+    second: Weapon_handle.003_end
+  - first:
+      4: 400108
+    second: Weapon_handle.004
+  - first:
+      4: 400110
+    second: Weapon_handle.004_end
+  - first:
+      4: 400112
+    second: Weapon_handle_end
+  - first:
+      43: 4300000
+    second: Helmet
+  - first:
+      43: 4300002
+    second: Throusers
+  - first:
+      43: 4300004
+    second: Jacket
+  - first:
+      43: 4300006
+    second: STG44
+  - first:
+      43: 4300008
+    second: Panzerfaust_launcher
+  - first:
+      43: 4300010
+    second: PanzerSchreck
+  - first:
+      43: 4300012
+    second: Flammenwerfer
+  - first:
+      43: 4300014
+    second: MG42
+  - first:
+      43: 4300016
+    second: Luger_P08
+  - first:
+      43: 4300018
+    second: K98
+  - first:
+      43: 4300020
+    second: MP40
+  - first:
+      43: 4300022
+    second: Schutzstaffel_B
+  - first:
+      74: 7400000
+    second: SchutzStaffel_B_rig|Deleted
+  - first:
+      74: 7400002
+    second: SchutzStaffel_B_rig|Flammenwerfer_idle
+  - first:
+      74: 7400004
+    second: SchutzStaffel_B_rig|Idle
+  - first:
+      74: 7400006
+    second: SchutzStaffel_B_rig|K98_aim
+  - first:
+      74: 7400008
+    second: SchutzStaffel_B_rig|K98_idle
+  - first:
+      74: 7400010
+    second: SchutzStaffel_B_rig|K98_reload
+  - first:
+      74: 7400012
+    second: SchutzStaffel_B_rig|K98_reload_Shoot
+  - first:
+      74: 7400014
+    second: SchutzStaffel_B_rig|Luger_aim
+  - first:
+      74: 7400016
+    second: SchutzStaffel_B_rig|Luger_idle
+  - first:
+      74: 7400018
+    second: SchutzStaffel_B_rig|Luger_reload
+  - first:
+      74: 7400020
+    second: SchutzStaffel_B_rig|MG42_aim
+  - first:
+      74: 7400022
+    second: SchutzStaffel_B_rig|MG42_idle
+  - first:
+      74: 7400024
+    second: SchutzStaffel_B_rig|MG42_reload
+  - first:
+      74: 7400026
+    second: SchutzStaffel_B_rig|MP40_aim
+  - first:
+      74: 7400028
+    second: SchutzStaffel_B_rig|MP40_idle
+  - first:
+      74: 7400030
+    second: SchutzStaffel_B_rig|MP40_reload
+  - first:
+      74: 7400032
+    second: SchutzStaffel_B_rig|Panzerfaust_idle
+  - first:
+      74: 7400034
+    second: SchutzStaffel_B_rig|Panzerfaust_reload
+  - first:
+      74: 7400036
+    second: SchutzStaffel_B_rig|Panzerschreck_idle
+  - first:
+      74: 7400038
+    second: SchutzStaffel_B_rig|Panzerschreck_Reload
+  - first:
+      74: 7400040
+    second: SchutzStaffel_B_rig|STG44_Aim
+  - first:
+      74: 7400042
+    second: SchutzStaffel_B_rig|STG44_idle
+  - first:
+      74: 7400044
+    second: SchutzStaffel_B_rig|STG44_reload
+  - first:
+      74: 7400046
+    second: SchutzStaffel_B_rig|Walk
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Flammenwerfer
+  - first:
+      137: 13700002
+    second: Helmet
+  - first:
+      137: 13700004
+    second: Jacket
+  - first:
+      137: 13700006
+    second: K98
+  - first:
+      137: 13700008
+    second: Luger_P08
+  - first:
+      137: 13700010
+    second: MG42
+  - first:
+      137: 13700012
+    second: MP40
+  - first:
+      137: 13700014
+    second: Panzerfaust_launcher
+  - first:
+      137: 13700016
+    second: PanzerSchreck
+  - first:
+      137: 13700018
+    second: Schutzstaffel_B
+  - first:
+      137: 13700020
+    second: STG44
+  - first:
+      137: 13700022
+    second: Throusers
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -260,7 +591,7 @@ ModelImporter:
       name: Schutzstaffel_jacket
     second: {fileID: 2100000, guid: 8cd3de5785b14c349b4a6642cffc2637, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -269,14 +600,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -288,6 +619,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Flammenwerfer_idle
       takeName: SchutzStaffel_B_rig|Flammenwerfer_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -316,6 +648,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Idle
       takeName: SchutzStaffel_B_rig|Idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -344,6 +677,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|K98_aim
       takeName: SchutzStaffel_B_rig|K98_aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -372,6 +706,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|K98_idle
       takeName: SchutzStaffel_B_rig|K98_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -400,6 +735,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|K98_reload
       takeName: SchutzStaffel_B_rig|K98_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 46
       wrapMode: 0
@@ -428,6 +764,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|K98_reload_Shoot
       takeName: SchutzStaffel_B_rig|K98_reload_Shoot
+      internalID: 0
       firstFrame: 0
       lastFrame: 42
       wrapMode: 0
@@ -456,6 +793,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Luger_aim
       takeName: SchutzStaffel_B_rig|Luger_aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -484,6 +822,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Luger_idle
       takeName: SchutzStaffel_B_rig|Luger_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -512,6 +851,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Luger_reload
       takeName: SchutzStaffel_B_rig|Luger_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 44
       wrapMode: 0
@@ -540,6 +880,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MG42_aim
       takeName: SchutzStaffel_B_rig|MG42_aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -568,6 +909,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MG42_idle
       takeName: SchutzStaffel_B_rig|MG42_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -596,6 +938,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MG42_reload
       takeName: SchutzStaffel_B_rig|MG42_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 14
       wrapMode: 0
@@ -624,6 +967,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MP40_aim
       takeName: SchutzStaffel_B_rig|MP40_aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -652,6 +996,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MP40_idle
       takeName: SchutzStaffel_B_rig|MP40_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -680,6 +1025,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|MP40_reload
       takeName: SchutzStaffel_B_rig|MP40_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -708,6 +1054,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Panzerfaust_idle
       takeName: SchutzStaffel_B_rig|Panzerfaust_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -736,6 +1083,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Panzerfaust_reload
       takeName: SchutzStaffel_B_rig|Panzerfaust_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 20
       wrapMode: 0
@@ -764,6 +1112,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Panzerschreck_idle
       takeName: SchutzStaffel_B_rig|Panzerschreck_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -792,6 +1141,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Panzerschreck_Reload
       takeName: SchutzStaffel_B_rig|Panzerschreck_Reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 16
       wrapMode: 0
@@ -820,6 +1170,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|STG44_Aim
       takeName: SchutzStaffel_B_rig|STG44_Aim
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -848,6 +1199,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|STG44_idle
       takeName: SchutzStaffel_B_rig|STG44_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 5
       wrapMode: 0
@@ -876,6 +1228,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|STG44_reload
       takeName: SchutzStaffel_B_rig|STG44_reload
+      internalID: 0
       firstFrame: 0
       lastFrame: 11
       wrapMode: 0
@@ -904,6 +1257,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SchutzStaffel_B_rig|Walk
       takeName: SchutzStaffel_B_rig|Walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 40
       wrapMode: 0
@@ -935,30 +1289,52 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -968,22 +1344,20 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 106450
-  packageName: POLYGON WW2 German Soilders
-  packageVersion: 1.0
-  assetPath: Assets/WW2_German_soilders/Soilders/FBX_soilders/Schutzstaffel_b/mesh/SchutzStaffel_B.fbx
-  uploadId: 222933
