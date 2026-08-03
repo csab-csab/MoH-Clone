@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -94,7 +95,21 @@ public class Weapon : MonoBehaviour
 
         if (Physics.Raycast(raycastFrom.position, raycastFrom.forward, out var hit, weaponData.range, raycastLayers))
         {
-            Debug.Log(hit.transform.name); 
+            if (hit.transform.TryGetComponent<Enemy>(out var enemy))
+            {
+                try
+                {
+                    enemy.TakeDamage(weaponData.damage);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+                
+                Debug.Log($"dealt damage{weaponData.damage}");
+            }
+           
         }
         
         //Play animation
