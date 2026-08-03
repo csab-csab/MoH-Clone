@@ -51,8 +51,6 @@ public class PresentationSettingsScript : MonoBehaviour
            //this automatically maps our JSON file to our wrapper class above
            presentationSettingsData = JsonUtility.FromJson<PresentationSettingsData>(jsonContent);
            
-           print(presentationSettingsData.target_resolution.width);
-           
            ChangeResolution();
            ChangeFrameRate();
         }
