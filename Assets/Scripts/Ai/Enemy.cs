@@ -66,6 +66,7 @@ public class Enemy : MonoBehaviour
    private void Start()
    {
       enemyBaseStats = CentralDataManager.instance.ReturnEnemyBaseStats();
+      currentHealth = baseHealth;
    }
    
 

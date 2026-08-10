@@ -93,24 +93,24 @@ public class Weapon : MonoBehaviour
             return;
         }
 
-        if (Physics.Raycast(raycastFrom.position, raycastFrom.forward, out var hit, weaponData.range, raycastLayers))
+        var hit = CastRay(raycastFrom);
+        
+        if (hit.transform.TryGetComponent<Enemy>(out var enemy))
         {
-            if (hit.transform.TryGetComponent<Enemy>(out var enemy))
+            try
             {
-                try
-                {
-                    enemy.TakeDamage(weaponData.damage);
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                    throw;
-                }
-                
-                Debug.Log($"dealt damage{weaponData.damage}");
+                enemy.TakeDamage(weaponData.damage);
             }
-           
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            
+            Debug.Log($"dealt damage{weaponData.damage}");
         }
+           
+        
         
         //Play animation
         //This is better than set trigger because when spamming shoot set trigger can lag behind
@@ -200,6 +200,19 @@ public class Weapon : MonoBehaviour
     {
         CurrentAmmo--; 
     }
+
+    #region Raycast
+
+    private RaycastHit CastRay(Transform raycastFrom)
+    {
+        Physics.Raycast(raycastFrom.position, raycastFrom.forward, out var hit, weaponData.range, raycastLayers);
+        {
+            return hit;
+        }
+    }
+
+    #endregion
+    
     
     #region Visuals
     

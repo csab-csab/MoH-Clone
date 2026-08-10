@@ -5,12 +5,29 @@ using UnityEngine.UI;
 
 public class CanvasController : MonoBehaviour
 {
+  [Header("Script References")]
+  [SerializeField]private PlayerInteract playerInteract;
+  
   [Header("Text References")]
   [Space(10)]
   [Header("Weapon UI References")]
+  [SerializeField]private Image crosshair;
   [SerializeField]private TMP_Text weaponName;
   [SerializeField] private TMP_Text ammoText;
+  
+  [Header("Crosshair References")]
+  [SerializeField]private Color standardColor;
+  [SerializeField]private Color enemyColor;
+  
+  void Update()
+  {
+    UpdateCrosshair(playerInteract.ReturnIsLookingAtEnemy());
+  }
 
+  private void UpdateCrosshair(bool isLookingAtEnemy)
+  {
+    crosshair.color = isLookingAtEnemy ? enemyColor : standardColor;
+  }
 
   public void UpdateWeaponNameText(string newName)
   {
