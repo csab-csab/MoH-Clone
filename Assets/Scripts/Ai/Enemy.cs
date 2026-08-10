@@ -1,21 +1,78 @@
+using System;
+using System.IO;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.AI;
+
+//Enemy Base Properties will be stored in a json so they can be adjusted even after building the game
+[System.Serializable]
+public class EnemyBaseStats
+{
+   #region Enemy Properties Json References
+   [Header("Stats and Health")]
+   public float baseHealth;
+   public float baseSpeed;
+   public float chaseSpeed;
+  
+   public float baseDamage;
+   [Header("The range at which the enemy goes from idle to patrolling")]
+   public float basePatrolRange;
+   [Header("This is the range at which the enemy notices the player and tries to get close to them")]
+   public float baseChaseRange;
+   [Header("The range at which the enemy stops and attacks the player")]
+   public float baseAttackRange;
+   #endregion
+
+}
 
 public class Enemy : MonoBehaviour
 {
    #region Animation Names to hash
    private static readonly int Death = Animator.StringToHash("Status_death");
    #endregion
-  
-   
-   public float health = 100;
 
-   //this animator uses ints because the package I got uses ints, so I didn't want to touch it
-   [SerializeField]Animator animator;
+   public enum State { Idle, Patrol, Chase, Attack };
+   public State currentState;
    
+   #region References
+   [SerializeField] private EnemyBaseStats enemyBaseStats;
+   
+   [Header("References")]
+   [SerializeField] private NavMeshAgent agent;
+   //this animator uses ints because the package I got uses ints, so I didn't want to touch it
+   [SerializeField] private Animator animator;
+   [SerializeField] private Transform firePoint;
+   #endregion
+   
+   #region Enemy Properties
+   [Header("Enemy Properties")]
+   
+   [Space(10)]
+   
+   [Header("Stats and health")]
+   [SerializeField]private float currentHealth;
+   private float baseHealth => enemyBaseStats.baseHealth;
+
+   [Header("Combat Properties")]
+   [SerializeField] private float currentDamage;
+   private float baseDamage => enemyBaseStats.baseDamage;
+   [SerializeField] private float currentSpeed;
+   private float baseSpeed => enemyBaseStats.baseSpeed;
+   [SerializeField] private float currentChaseSpeed;
+   private float baseChaseSpeed => enemyBaseStats.chaseSpeed;
+   #endregion
+
+
+   private void Start()
+   {
+      enemyBaseStats = CentralDataManager.instance.ReturnEnemyBaseStats();
+   }
+   
+
    public void TakeDamage(float damage)
    {
-      health -= damage;
-      if (health <= 0)
+      currentHealth -= damage;
+      if (currentHealth <= 0)
       {
          Die();
       }
@@ -57,4 +114,5 @@ public class Enemy : MonoBehaviour
    }
 
    #endregion
+
 }
