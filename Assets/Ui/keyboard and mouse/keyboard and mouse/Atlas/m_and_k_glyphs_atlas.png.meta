@@ -1,0 +1,3847 @@
+fileFormatVersion: 2
+guid: 74416ec53b7d946f6a3add97f5893bdb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad118beb5db4bd995b8f2211643a7e
+      internalID: -27299488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafa9d8f5a46a42068ea78964d9f2639
+      internalID: -551165645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e9387515499430684fde55e39795e4
+      internalID: -2134660366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21efe2ec2b33d49d79397681f9ef5234
+      internalID: 81559868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa889dcdeb71240dabfa4c5d1e1bafbe
+      internalID: -163809729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad85bc28ddf4fc4b8c4953a9b959f3
+      internalID: -1142166587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713d47c9f846f4148be79409c6ef9e7c
+      internalID: -1977217008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7399b252113ce4cf0b8749009c9a59d8
+      internalID: 303191411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d065727cf61214d66833aca86b31e905
+      internalID: -397226018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773508c99a7a44663bc99d95f304c1c0
+      internalID: 170102218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09bc57f068c94c56929a307a7805bdd
+      internalID: -486535802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6b8dec259a46598bd23a6c908c32e
+      internalID: 2144775154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26feb805f5e11449b999e2eecf6162ff
+      internalID: 1347840462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7bf6e0258684ca98581d658549f684
+      internalID: -1688526751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c430995b0866411b93e7842463f9109
+      internalID: 576158241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5dc20d30e5a4019bfcfecf9851ceb3
+      internalID: 182180733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808e5021608084e0bae99e93a3f61945
+      internalID: 1728932259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a0211a1b50c434a9598146c1f6bcab
+      internalID: 1851324626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19dc3d68095a4355994b72ad953860c
+      internalID: -387442795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1a02b0e0524dd1aa06002fb5cd10e
+      internalID: -802859975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6354b530532d74f3b8bf53a1770fe903
+      internalID: -197968829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8536ff05446a64e28a9387315fad8803
+      internalID: -222914655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9866cfc2e5243949f6ea1b1aea6826
+      internalID: -1909477410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefdcf97070574fcfb0ff23f417e9f5d
+      internalID: -965919236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48072dabc130141a0a00b4e55439bfca
+      internalID: -1707615667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da3a4e40b9c24bbb881579a88497958
+      internalID: -707357928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4912c20914ae403fbc8f8d5a3beb426
+      internalID: -954131149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe797d71860e463488722328419183d
+      internalID: -1041008846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7ad7692af5542cf83eb7ce4f9358f8
+      internalID: -540746017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536a12431ec884646a52f2d9ee9610b6
+      internalID: 1348254544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dfd0be4bb0e4e23a689ca2531f65e6
+      internalID: -411523822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f96e3ab6bf4950993bbaf5105bfe5
+      internalID: 1035158855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a545202fbc8ea419282cc6ea9f776de6
+      internalID: -115991646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5a921dbb2ef46b8b0d59852a4a502f
+      internalID: -1688487880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d994c5fa4174b8f80a88f8891263ec
+      internalID: 74844258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8b3c3fd600146f8bf653ff100f6615
+      internalID: 935756732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a52a149d85140188691bf4f041e05c
+      internalID: 2040310644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061e982e346f4c45b9730e8f18560a5
+      internalID: 1687149946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f842685f10494b01960218609d9a148
+      internalID: 1192963863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89454ac194124aa2a378e963b9bd65d
+      internalID: -1118781093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a581e0dca9cd4739ad5937161d603dd
+      internalID: -1000729150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dfe1a1e16684859b89f54023f9f654
+      internalID: -1960263917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0f886f90b4841da9ce029f9ee0a534
+      internalID: 1552114427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bacc5c1c1bb435eadded307d8d11af
+      internalID: 1227481706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b334df3f129e4431864cdd8f4ce4ea7
+      internalID: 2104468208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b05e020dd92c479aa9ae7753db82d87
+      internalID: -1630988389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55317b6023274ab48eac4d2280f1ded
+      internalID: -980230475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e2d6027734741f49865ced6a45ec5e
+      internalID: 1722497954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f2c3fe36bf54cfd9e6d0b9cde5c805
+      internalID: 725809172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af638ffc2a30648839953b2029ae93a6
+      internalID: -418841483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5f58e72aafe4428be8c04bc04828e3
+      internalID: -87591780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62663b3426fb94b8381b38a201fcb5f1
+      internalID: 639248515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a5eafbf9a6046618f85010b86a71e4
+      internalID: 1745803114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725eec41b5cdf487797cda2aa0ae4fd5
+      internalID: 2057670721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1006
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302d18b8098a5458c81ee53b5ff846fe
+      internalID: 1630339438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1006
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89373cf7e3b1e4e369042d1dccfc8a0a
+      internalID: 2147140532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65568dda2f4c94e1c86300df168e71ba
+      internalID: -155927535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a32433438b7b4ecaaf45cf339af15e3
+      internalID: 767725426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7511589405c934e87be8c24dec5e24ee
+      internalID: 1994105958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cee8b100c55b436c964bbc26d1cecba
+      internalID: -1143954067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a52367539374cc79afe4b05eb397b8
+      internalID: 127501333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014583662e86648acb9f67d00f8f7915
+      internalID: 265896782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd833b1d9bae041598c79f04d256cbdd
+      internalID: -122897514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bd50e8891324d9f99f06c5fc5e2f29
+      internalID: 2099693697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c847d6c745a4eb39ccb09107932496
+      internalID: 957673558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f289d88cac65428ebdb549b527f2a58
+      internalID: -553449353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58370efe514594f959f5da3d4f7c8a2a
+      internalID: 15754217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650d9ef4b3ac540848af2720e65162be
+      internalID: -177053937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1514016047e4a08a20ebf894d85110
+      internalID: 567802850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c21fb0c6e5b74fdb84263c2483b982e
+      internalID: 1361698537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff006ad4ee8c464e82fb02a47ce1203
+      internalID: 2026895844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c378e62166c349c69fc812b10927877
+      internalID: -1974854992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884c5c4157afc4550bca835eeade5a6d
+      internalID: 1746010907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f703ee61b4d904c838c42a27b135f25c
+      internalID: 994962052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be4692b1203e49c1987e88b301c2097
+      internalID: 1457362004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ba9a6279d234724aba8b029f9a9e23
+      internalID: -615348960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a64d98554ab4530a6775cb6c87209b
+      internalID: -907316844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5750c5a98cd8b4b27b147f3c6b909033
+      internalID: 2129191580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63121c4ab9814578ab5e6c150b60111
+      internalID: -1675897440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6ff7af1f9cc4674945befd8b9995c0
+      internalID: -1436915033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da5238284ad438c92724c710cb76c3
+      internalID: -1811653667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7fb4cbde7fc4cc3aa0b30a722ada44
+      internalID: -41739519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cf94ce2d4314003846679186856ab0
+      internalID: 1645360268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1e1b7c9a67348fa89cabab87e0695e
+      internalID: -1106747448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed18b8bcdc2a543b8b1cb30802f54abb
+      internalID: -1878871189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f0f1acc2cc4083bfd1c5d0bcea001
+      internalID: -1996719741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf9cf0d13964471aaa7fd0276db4e5a
+      internalID: -38091328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a1f77d4d8d4ca3988e96b3a1914f7
+      internalID: 1389832543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d60ea5478da747da83acb15ca3d2362
+      internalID: 753231369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c8ae85077d74fb8a70acd0a36070c6
+      internalID: -306888564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022911cd4a5d4b589c216918da28f64
+      internalID: -1971761686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da4606259a884ee7b95b57bb6734b2e
+      internalID: -285570465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c43769d8c6c1477f830a29900b12afc
+      internalID: -825852509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdb6dc059b2841c58b03acccf4ebd2e
+      internalID: -1380208282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4807d0e09643240e38f9818dd381bf95
+      internalID: 1394663119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a082c27f542004bdaad37017ac7f0776
+      internalID: -453766089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3358d56f543f4eb39906cba8f7f00c6
+      internalID: -1488502911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1253d0beb59d947f29fe2b235ca8fcd4
+      internalID: 1625607609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6cb615eefe441fb72455a6c0e22d2
+      internalID: -1415668624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a70580dcb514a068d12b12e8be05d6
+      internalID: 303299948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3561fe42e9f9482aaebd6d7f5797139
+      internalID: 1188453992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad93b69a2ea44408b5b10c49d1b751d
+      internalID: -1772386180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426bbd9e0e8834bea9f5f0907386fd5c
+      internalID: -193874415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c994e964e4db4e00b5c17621a3d6fd3
+      internalID: 1749171777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c9eef676197440f86628238b69759f
+      internalID: 4485276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc617a346504525a3fc8cfb7a412f3
+      internalID: -443372709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4b2d3b186b14a5bb3518f8c9488d20
+      internalID: 138555988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc8c7db396c438ba34c0c0a2c43344
+      internalID: 1135014830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2393078584c7e4e8eb648d27e6dbcc4c
+      internalID: -1169386886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5ed7a721b5c419ea4c7924dfded9b1
+      internalID: -1595394461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 986
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec641a3c9444972be7d7d708badf81
+      internalID: 1226550894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 986
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2328de460a2a44774b0a0e248f4e19c3
+      internalID: -1616542106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331fae20db7534edb98c8db905041c3a
+      internalID: -589091275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0602f0452a842c0aa592d905fcc388
+      internalID: 2023796025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27c325b1b8e7445e9dbc8167468845d
+      internalID: -1890940148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9472214922c644cbaa0b1404d075464
+      internalID: -1124857263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369971adbfb8d460ca10c8adb7a56be5
+      internalID: 877916443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_117
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54a72e4ca6634703888ccc085105e77
+      internalID: -1908194635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b85563ed364041b9f20aa172808d2
+      internalID: 1235624278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_119
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9eeabfcbf74043bf1feea30d1132b
+      internalID: 844892542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_120
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d656f1e38dacd4eb6848a4b889a6bd8f
+      internalID: 1310546631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_121
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea18c7bdd17b445cfb6fbb3ce927426b
+      internalID: -1321767890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_122
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e31ed0cd85b4f6194f53e934efd1fe
+      internalID: -1770673376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_123
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a197c372082134fa1bc5fae6afc95e86
+      internalID: 728498469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_124
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7c1e663784a4ae6883e0ded403d1a1
+      internalID: -2097868469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_125
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef086592611d4ad092f190ba895bcec
+      internalID: 311328214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_126
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074fefa064a8e4669ae25bc8653d2911
+      internalID: -1435024323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_127
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a94e9822fb334084b7f39f3eef229f4
+      internalID: 342924648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_128
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecc7c7f98b8a41389fc67eac2f8c6ab
+      internalID: -639858009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_129
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25c3e9a62554afda31e5a959bb53b6
+      internalID: 1419355644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_130
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c10f55ba2943ef855996c09eb0a23
+      internalID: 319303770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_131
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fac047441894504806c8510dfff92a
+      internalID: -2115891337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_132
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d97cb98ef94546a4a029d39fac15a19
+      internalID: 946090737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_133
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4745e89a015451a8bb424ee6937974
+      internalID: 776233067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_134
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ee837475e454aa79898b20cb791d53
+      internalID: -66763011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_135
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36544c799fa5f4712872303d0705d969
+      internalID: -407247388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_136
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4d82c5ca8734bfdba37a9638db8510
+      internalID: -1107597577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_137
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254fb033919aa413b940d5d562888daa
+      internalID: -89857478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_138
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61714bc680334ec09f6b86d68b9ce51
+      internalID: 1406961083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_139
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747115f4a5a294781b2f784d9292e40b
+      internalID: 1938496613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_140
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ec76c471158440d8b64d0ef45e2e0e
+      internalID: -2012392271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_141
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8f7266755de487f91f22549c76a61e
+      internalID: 1680275270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_142
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180385b7e91c547859f01bb5180ce522
+      internalID: -1086999941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_143
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986f9c398b41419ca0185e0e68bb4e0
+      internalID: -236338355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_144
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e440e0f924bb54b998ec091ec5a717a6
+      internalID: 48878101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_145
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a644e65b40d14e44be184c3213f2003
+      internalID: -1744882112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_146
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4571ff5d37098445cb726be517ff966e
+      internalID: 50416506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_147
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc935856b95402bb64f19142c1baeb
+      internalID: -1014166641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_148
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 966
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2f7987579b443b4a80024069e3a860
+      internalID: 1995344056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_149
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06300453a76594d54950afaa4477a073
+      internalID: 346079690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_150
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 966
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf174988a2bad4a7586a5cf71dfdefc4
+      internalID: 274144126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_151
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 966
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93c2d1e6c34a402f9a9cd4b3902906e
+      internalID: -898386038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_152
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 966
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff669c770c2d42259b3b4cacef2dc6d
+      internalID: -794113274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_153
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 966
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23894fb5f9f744e5d8da52a6dc699801
+      internalID: 412485793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_154
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 966
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d74347bee754a98937095b5eb26909
+      internalID: 1427372073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_155
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 946
+        width: 85
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58524d6ea24e4696bec030441e5dcd2
+      internalID: 948934583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_156
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 946
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209b71050e6e44533aae2ad907cf4733
+      internalID: 2016783661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_157
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 946
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e1aa9ab0ada407098b8e2d0cd2a66f
+      internalID: 1649236468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_158
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 946
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2388b26ac9766424a83bbbea55d1add0
+      internalID: 1097745873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_159
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 946
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c24cdda4f24255abc2c9974e6d704
+      internalID: 1802708905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_160
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 946
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a347d472ae4258a3f67b27ea11c11
+      internalID: -1482780147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_and_k_glyphs_atlas_161
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 946
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86da50fd7edd4ce1b1586196950bdcb
+      internalID: -1597508404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      m_and_k_glyphs_atlas_0: -27299488
+      m_and_k_glyphs_atlas_1: -551165645
+      m_and_k_glyphs_atlas_10: -486535802
+      m_and_k_glyphs_atlas_100: 1188453992
+      m_and_k_glyphs_atlas_101: -1772386180
+      m_and_k_glyphs_atlas_102: -193874415
+      m_and_k_glyphs_atlas_103: 1749171777
+      m_and_k_glyphs_atlas_104: 4485276
+      m_and_k_glyphs_atlas_105: -443372709
+      m_and_k_glyphs_atlas_106: 138555988
+      m_and_k_glyphs_atlas_107: 1135014830
+      m_and_k_glyphs_atlas_108: -1169386886
+      m_and_k_glyphs_atlas_109: -1595394461
+      m_and_k_glyphs_atlas_11: 2144775154
+      m_and_k_glyphs_atlas_110: 1226550894
+      m_and_k_glyphs_atlas_111: -1616542106
+      m_and_k_glyphs_atlas_112: -589091275
+      m_and_k_glyphs_atlas_113: 2023796025
+      m_and_k_glyphs_atlas_114: -1890940148
+      m_and_k_glyphs_atlas_115: -1124857263
+      m_and_k_glyphs_atlas_116: 877916443
+      m_and_k_glyphs_atlas_117: -1908194635
+      m_and_k_glyphs_atlas_118: 1235624278
+      m_and_k_glyphs_atlas_119: 844892542
+      m_and_k_glyphs_atlas_12: 1347840462
+      m_and_k_glyphs_atlas_120: 1310546631
+      m_and_k_glyphs_atlas_121: -1321767890
+      m_and_k_glyphs_atlas_122: -1770673376
+      m_and_k_glyphs_atlas_123: 728498469
+      m_and_k_glyphs_atlas_124: -2097868469
+      m_and_k_glyphs_atlas_125: 311328214
+      m_and_k_glyphs_atlas_126: -1435024323
+      m_and_k_glyphs_atlas_127: 342924648
+      m_and_k_glyphs_atlas_128: -639858009
+      m_and_k_glyphs_atlas_129: 1419355644
+      m_and_k_glyphs_atlas_13: -1688526751
+      m_and_k_glyphs_atlas_130: 319303770
+      m_and_k_glyphs_atlas_131: -2115891337
+      m_and_k_glyphs_atlas_132: 946090737
+      m_and_k_glyphs_atlas_133: 776233067
+      m_and_k_glyphs_atlas_134: -66763011
+      m_and_k_glyphs_atlas_135: -407247388
+      m_and_k_glyphs_atlas_136: -1107597577
+      m_and_k_glyphs_atlas_137: -89857478
+      m_and_k_glyphs_atlas_138: 1406961083
+      m_and_k_glyphs_atlas_139: 1938496613
+      m_and_k_glyphs_atlas_14: 576158241
+      m_and_k_glyphs_atlas_140: -2012392271
+      m_and_k_glyphs_atlas_141: 1680275270
+      m_and_k_glyphs_atlas_142: -1086999941
+      m_and_k_glyphs_atlas_143: -236338355
+      m_and_k_glyphs_atlas_144: 48878101
+      m_and_k_glyphs_atlas_145: -1744882112
+      m_and_k_glyphs_atlas_146: 50416506
+      m_and_k_glyphs_atlas_147: -1014166641
+      m_and_k_glyphs_atlas_148: 1995344056
+      m_and_k_glyphs_atlas_149: 346079690
+      m_and_k_glyphs_atlas_15: 182180733
+      m_and_k_glyphs_atlas_150: 274144126
+      m_and_k_glyphs_atlas_151: -898386038
+      m_and_k_glyphs_atlas_152: -794113274
+      m_and_k_glyphs_atlas_153: 412485793
+      m_and_k_glyphs_atlas_154: 1427372073
+      m_and_k_glyphs_atlas_155: 948934583
+      m_and_k_glyphs_atlas_156: 2016783661
+      m_and_k_glyphs_atlas_157: 1649236468
+      m_and_k_glyphs_atlas_158: 1097745873
+      m_and_k_glyphs_atlas_159: 1802708905
+      m_and_k_glyphs_atlas_16: 1728932259
+      m_and_k_glyphs_atlas_160: -1482780147
+      m_and_k_glyphs_atlas_161: -1597508404
+      m_and_k_glyphs_atlas_17: 1851324626
+      m_and_k_glyphs_atlas_18: -387442795
+      m_and_k_glyphs_atlas_19: -802859975
+      m_and_k_glyphs_atlas_2: -2134660366
+      m_and_k_glyphs_atlas_20: -197968829
+      m_and_k_glyphs_atlas_21: -222914655
+      m_and_k_glyphs_atlas_22: -1909477410
+      m_and_k_glyphs_atlas_23: -965919236
+      m_and_k_glyphs_atlas_24: -1707615667
+      m_and_k_glyphs_atlas_25: -707357928
+      m_and_k_glyphs_atlas_26: -954131149
+      m_and_k_glyphs_atlas_27: -1041008846
+      m_and_k_glyphs_atlas_28: -540746017
+      m_and_k_glyphs_atlas_29: 1348254544
+      m_and_k_glyphs_atlas_3: 81559868
+      m_and_k_glyphs_atlas_30: -411523822
+      m_and_k_glyphs_atlas_31: 1035158855
+      m_and_k_glyphs_atlas_32: -115991646
+      m_and_k_glyphs_atlas_33: -1688487880
+      m_and_k_glyphs_atlas_34: 74844258
+      m_and_k_glyphs_atlas_35: 935756732
+      m_and_k_glyphs_atlas_36: 2040310644
+      m_and_k_glyphs_atlas_37: 1687149946
+      m_and_k_glyphs_atlas_38: 1192963863
+      m_and_k_glyphs_atlas_39: -1118781093
+      m_and_k_glyphs_atlas_4: -163809729
+      m_and_k_glyphs_atlas_40: -1000729150
+      m_and_k_glyphs_atlas_41: -1960263917
+      m_and_k_glyphs_atlas_42: 1552114427
+      m_and_k_glyphs_atlas_43: 1227481706
+      m_and_k_glyphs_atlas_44: 2104468208
+      m_and_k_glyphs_atlas_45: -1630988389
+      m_and_k_glyphs_atlas_46: -980230475
+      m_and_k_glyphs_atlas_47: 1722497954
+      m_and_k_glyphs_atlas_48: 725809172
+      m_and_k_glyphs_atlas_49: -418841483
+      m_and_k_glyphs_atlas_5: -1142166587
+      m_and_k_glyphs_atlas_50: -87591780
+      m_and_k_glyphs_atlas_51: 639248515
+      m_and_k_glyphs_atlas_52: 1745803114
+      m_and_k_glyphs_atlas_53: 2057670721
+      m_and_k_glyphs_atlas_54: 1630339438
+      m_and_k_glyphs_atlas_55: 2147140532
+      m_and_k_glyphs_atlas_56: -155927535
+      m_and_k_glyphs_atlas_57: 767725426
+      m_and_k_glyphs_atlas_58: 1994105958
+      m_and_k_glyphs_atlas_59: -1143954067
+      m_and_k_glyphs_atlas_6: -1977217008
+      m_and_k_glyphs_atlas_60: 127501333
+      m_and_k_glyphs_atlas_61: 265896782
+      m_and_k_glyphs_atlas_62: -122897514
+      m_and_k_glyphs_atlas_63: 2099693697
+      m_and_k_glyphs_atlas_64: 957673558
+      m_and_k_glyphs_atlas_65: -553449353
+      m_and_k_glyphs_atlas_66: 15754217
+      m_and_k_glyphs_atlas_67: -177053937
+      m_and_k_glyphs_atlas_68: 567802850
+      m_and_k_glyphs_atlas_69: 1361698537
+      m_and_k_glyphs_atlas_7: 303191411
+      m_and_k_glyphs_atlas_70: 2026895844
+      m_and_k_glyphs_atlas_71: -1974854992
+      m_and_k_glyphs_atlas_72: 1746010907
+      m_and_k_glyphs_atlas_73: 994962052
+      m_and_k_glyphs_atlas_74: 1457362004
+      m_and_k_glyphs_atlas_75: -615348960
+      m_and_k_glyphs_atlas_76: -907316844
+      m_and_k_glyphs_atlas_77: 2129191580
+      m_and_k_glyphs_atlas_78: -1675897440
+      m_and_k_glyphs_atlas_79: -1436915033
+      m_and_k_glyphs_atlas_8: -397226018
+      m_and_k_glyphs_atlas_80: -1811653667
+      m_and_k_glyphs_atlas_81: -41739519
+      m_and_k_glyphs_atlas_82: 1645360268
+      m_and_k_glyphs_atlas_83: -1106747448
+      m_and_k_glyphs_atlas_84: -1878871189
+      m_and_k_glyphs_atlas_85: -1996719741
+      m_and_k_glyphs_atlas_86: -38091328
+      m_and_k_glyphs_atlas_87: 1389832543
+      m_and_k_glyphs_atlas_88: 753231369
+      m_and_k_glyphs_atlas_89: -306888564
+      m_and_k_glyphs_atlas_9: 170102218
+      m_and_k_glyphs_atlas_90: -1971761686
+      m_and_k_glyphs_atlas_91: -285570465
+      m_and_k_glyphs_atlas_92: -825852509
+      m_and_k_glyphs_atlas_93: -1380208282
+      m_and_k_glyphs_atlas_94: 1394663119
+      m_and_k_glyphs_atlas_95: -453766089
+      m_and_k_glyphs_atlas_96: -1488502911
+      m_and_k_glyphs_atlas_97: 1625607609
+      m_and_k_glyphs_atlas_98: -1415668624
+      m_and_k_glyphs_atlas_99: 303299948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

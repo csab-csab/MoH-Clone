@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
+    
     [Header("Script References")]
     [SerializeField] private InputHandler inputHandler;
+    [SerializeField] private CanvasController canvasController;
 
     [Header("Interaction Properties")]
     [Tooltip("Transform where raycast originates from")]
@@ -20,7 +22,7 @@ public class PlayerInteract : MonoBehaviour
         {
             if (hit.transform.TryGetComponent<DoorScript>(out var doorScript))
             {
-                Debug.Log("Press E to open door");
+                canvasController.TestInteractText();
                 if (inputHandler.interactPressed)
                 {
                     doorScript.InteractWithDoor(); 
@@ -31,7 +33,7 @@ public class PlayerInteract : MonoBehaviour
         //Raycast with longer range for crosshair colour change
         if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, 1000, raycastMask))
         {
-            _isLookingAtEnemy = raycastHit.transform.TryGetComponent<Enemy>(out var enemy); 
+            _isLookingAtEnemy = raycastHit.transform.TryGetComponent<Enemy>(out _); 
         }
     }
     

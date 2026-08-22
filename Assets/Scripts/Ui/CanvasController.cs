@@ -8,6 +8,10 @@ public class CanvasController : MonoBehaviour
   [Header("Script References")]
   [SerializeField]private PlayerInteract playerInteract;
   
+  [Header("Atlas References")]
+  [SerializeField]private TMP_Asset mkSpriteAtlas;
+  
+  
   [Header("Text References")]
   [Space(10)]
   [Header("Weapon UI References")]
@@ -18,6 +22,10 @@ public class CanvasController : MonoBehaviour
   [Header("Crosshair References")]
   [SerializeField]private Color standardColor;
   [SerializeField]private Color enemyColor;
+  
+  [Header("Interact UI References")]
+  [SerializeField]private TextMeshProUGUI interactText;
+ 
   
   void Update()
   {
@@ -55,5 +63,27 @@ public class CanvasController : MonoBehaviour
     }
     ammoText.text = $"{currentAmmo}/{carriedAmmo}";
   }
+
   
+  //Maybe build a dictionary for sprite index lookups?
+  //for example:
+  //1. build array of sprite indexes (int)
+  //2. build array of what button they represent (string)
+  //3. assign in inspector
+  //3. create dictionary in start()
+  public void TestInteractText()
+  {
+    int index = 82;
+    string spriteTag = $"<size=120%><sprite={index}></size>";
+
+    interactText.text = $"Press {spriteTag} to open door";
+
+    RectTransform rectTransform = interactText.GetComponentInChildren<RectTransform>();
+    
+    if (rectTransform != null)
+    {
+      rectTransform.localPosition = new Vector3(12, -12, 0);
+    }
+
+  }
 }

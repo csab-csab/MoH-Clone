@@ -82,6 +82,9 @@ public class Enemy : MonoBehaviour
    private void Die()
    { 
       ResetAllAnimatorParameters(true);
+      
+      //Implement object pooling
+      Destroy(gameObject, 5f);
    }
 
    #region Animation Functions
