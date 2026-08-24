@@ -1,0 +1,6743 @@
+fileFormatVersion: 2
+guid: b70f6400d8c1dcb42bce58b97556100e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f473ab557d873646a5d2afc27ae95a3
+      internalID: -1201515196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c8287606d0cf349bbcd76f7d1892e2
+      internalID: -1891633648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf92d16ae78f24ea9a7092071be36a
+      internalID: 476142264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f758bf614cd5eae4987456409ff87515
+      internalID: -711483101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df5bf07d823abe4c882e8995a517bae
+      internalID: 683351107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2a509a6d9f4934895fbbdea0a136f9
+      internalID: -369902275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a543107910406f440ba65bd7a85f2eae
+      internalID: 545649553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e960ad93f50d64683a2c8bfbbe8e03
+      internalID: -432119340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7a6e5712a567c428b5089429b5952a
+      internalID: 856026530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cd7774e4ef21b409038f12f85628c6
+      internalID: -1469652119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42acce0a1e1eeb34c806ace57f71bbd6
+      internalID: 412717294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c9b7cb5ba09ba48b3332930f2ab424
+      internalID: 109432594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4155badc35a5cd042a86f4fee34fced9
+      internalID: 1265386763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d8e464b06661843be126bd4428ab83
+      internalID: -960988127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_14
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579f59ffb3c4f124d92c43e65ea9e738
+      internalID: -1992448074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f726eca84e494c24591bb5a41321c5bb
+      internalID: 472831511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1a06f35bf0c59439e979bbb2c4f845
+      internalID: 8572157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ede05e764289e40896fb58c8099f8a
+      internalID: 597555302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa68924b804d34bb413b1eedff5018
+      internalID: 1547059592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba71e607ee8c81442bb8d9f45114da94
+      internalID: 1545279078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dacb78560013724c9bb5bfad7cee292
+      internalID: 120291830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d819cd5743c134ebfad1e06006e394
+      internalID: -1444379773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3c29eda0296e4c9b253af6d33ae1c
+      internalID: 635745202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffb1cb8d5ea23247bcd48111e116eee
+      internalID: 543311313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_24
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e65892a8498414a8c4a7e6b2d41f69
+      internalID: 1437819522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445be16fe2a97124a83824ba8876fb2a
+      internalID: -1948030288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_26
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd6f2b7eb79d124b910e31022033d27
+      internalID: 1315456901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa484ba211fef2348aa6b688ef0d0946
+      internalID: 1897506893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_28
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733d0aacc1bd06a47bc9d063e19c3def
+      internalID: -314515790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf816d45746004d983d1dc3b187885
+      internalID: -2027150833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_30
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364f1b96d8ab41649b7e961204e6c02f
+      internalID: 631646783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_31
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630b36168f765ce44b457a9ce566cd18
+      internalID: 1713453996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bcf9035058478439c753f497bd6326
+      internalID: -2134249610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_33
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fcf6a8a03725d448d55b2ca877e906
+      internalID: 1576821718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_34
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971fc9ca1f9f53e4f93ac149929f11cf
+      internalID: -1816561994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_35
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d076af5a2bde3254892028363e8c327b
+      internalID: 1862104184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_36
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6c59b51e4f734f85907b62fbef329
+      internalID: 1486041445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_37
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e429742b62a1444b475b674f22bfbe
+      internalID: 1704003777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_38
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150953151177e794daecccd6e1432877
+      internalID: 1863083875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_39
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc911c5c871de343baaf700c7fef343
+      internalID: -199272499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_40
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec75d4d5439bbd479bd99f8b631add0
+      internalID: 109755256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_41
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75774032f4b7c544e8ef5f93992761ce
+      internalID: -1485362549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_42
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268fe663ad82669408f1de4dee4eabc4
+      internalID: -180073394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_43
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a2345ad5cd194a98e08801204358e
+      internalID: -724854121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_44
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517bba9e30ca2c4f8e7f12a7054f38f
+      internalID: -240320638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_45
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f60d606b7f610749982c6e857f9def9
+      internalID: -564404768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_46
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c68537880ba30e49bdb4cefffecb14b
+      internalID: -1769538270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_47
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7da9bf5f71015a49a95d19a7f96c412
+      internalID: 749485382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_48
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4b2375b98a23a44acec3cb77d89c22
+      internalID: 730411487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_49
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a1b4d26d9d1a4ea2fec79ee62ddc0
+      internalID: -1692113744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_50
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fcddc99ac38bf4e8a4118a1bb03fc4
+      internalID: 1048413470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_51
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1707817a7086f409daad2fc3cfacf7
+      internalID: 2125070341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_52
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7905e38b33efbf48b41aa5eb57b9823
+      internalID: 868671052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_53
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467a610d05d4e494897e07f45da40b12
+      internalID: -33596887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_54
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 162
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac3e5a38d289624d88d0c083a4743e1
+      internalID: -785125720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_55
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 162
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cc5085922a29343b1f1bdd93d68a5e
+      internalID: -1584396067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_56
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 97
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e30fffcc09815478f66e715d1a1541
+      internalID: 634512046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_57
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 162
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fadf5ea5c2968d449fd82a3d8f2f62e
+      internalID: -1687294729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_58
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 162
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d8fd242f217324e8c1e765ab76fb31
+      internalID: 1804826091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 97
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68643fc1e04b4814a88e4af5ed9362b2
+      internalID: 1446586652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_60
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 162
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd549558bf1304a4dbf4041c4de3aa32
+      internalID: 695165889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_61
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 162
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f27e3384588acf4fa50350d78cf3560
+      internalID: -1052976044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_62
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3071b9fdb2c3147a2904a9d7697f06
+      internalID: -824192087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_63
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519985a4eb9cabe4d863493f513e0283
+      internalID: 53532547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_64
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da537dfbaafb46047992ba3e5d4d3334
+      internalID: 903922309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_65
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7dabcc4f8d48347b248d8a2f5a4a76
+      internalID: 1325533972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_66
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 162
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76bf55855802f4a81e70eb0dd20725
+      internalID: -912404561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_67
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 162
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07661b8a076492b4dae4d3daae58683b
+      internalID: 1943216355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_68
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 162
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484d825ded8672245aa8189d173374c4
+      internalID: -968474134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_69
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb008a0eb6864c44b50a0fc95b53650
+      internalID: -73521601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_70
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c848072bcb7764abbde441fd57ce8a
+      internalID: -1712939247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23523c17cea5dd448dfe395e2cd13a8
+      internalID: 1050213284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_72
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3cc3ee4d5bc1049915131476426165
+      internalID: 1200398551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_73
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96225205097a8cb45972c34359344b4a
+      internalID: 1523764497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_74
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ad135862f8a643a979373a0658050
+      internalID: -1457127335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ea02efedd21b409935b251581ec3f
+      internalID: -1303541319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_76
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4af723c4987f04a951287b61eba5f7
+      internalID: -1561460049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_77
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b356274c17c7bfc429e97cce0467006a
+      internalID: -945213292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_78
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e82bb7a27358014b913519d81b540b3
+      internalID: -1136728208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_79
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a3468a4c09214abedd4e649b43237
+      internalID: -1947473277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bc1fd40eca2524cba7ae413cc6016a
+      internalID: 1453223834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_81
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d07c14296c0647ac98e41eaa51ff9
+      internalID: 1765488606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_82
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9047cdca037bd3842bb9e962ce456a1f
+      internalID: 1299937275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f7fd3b9ba87140936d6465275e814
+      internalID: -1064620547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_84
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86dce60bca34c24598aa08924b17b4f
+      internalID: -1201974108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_85
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc428022f359ac4a8dd2dd310bf0c55
+      internalID: 1803093132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_86
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e73cec15c2bbc4dae32f6005ef5558
+      internalID: 347378430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_87
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8af1903c585526419620d18f81b0af4
+      internalID: 35514479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_88
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb79693081c073c4dbedfe51f0327a17
+      internalID: -1670355350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_89
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2505dffd51fe7c94c8858208705cc505
+      internalID: 89056180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_90
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c2b4214fc27d14dae5623e5dd85552
+      internalID: -1994104967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_91
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6833d7fdfc5f5914094057b0c6832e17
+      internalID: -1824178027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_92
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d36122e2c4bc499dec29873349470
+      internalID: -100364866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_93
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b272e9ed6f9ac4fafb5d1fff551187
+      internalID: 774414178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_94
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf41e5fd03b2144ba8f31c40d897654
+      internalID: 116771576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_95
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a15fcc44c2a6441a8ac5c734b9ccab
+      internalID: -1858424242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_96
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdca4d755dfeff4d8537318f8ea2b08
+      internalID: -1708187683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_97
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3e0ef54cf9887418737fd7bbc6b3ee
+      internalID: 1981358000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_98
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc8cfcdba55d824ab8bff17d4ab5d63
+      internalID: -1180069142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_99
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0e0ecc76f2baf47a1b4c797b53152b
+      internalID: 1413999465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_100
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86efe3c781e1f304b830df69d782a73d
+      internalID: -420683230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_101
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c794f884376b9f498eb28e41ce1a9ec
+      internalID: 1976961397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_102
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8978fd101f318464ea3092b1e75003f1
+      internalID: -1727416287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_103
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd0cd7dc49a36b4a9028b75ded2728c
+      internalID: -1635100766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_104
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068499ed4154a424a9612a09245d8d1a
+      internalID: 1185000356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_105
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dbba3fbab50984f9eb926a44b601e3
+      internalID: -1879736777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_106
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a68a5787133aac45af75b527d5e0734
+      internalID: -1304518003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_107
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff2e0ac8da4fee498f91d58e9750422
+      internalID: -1847856289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_108
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f54baabb81ddec448f3e7aabf064563
+      internalID: 1708056644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_109
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90919343f1f5ab847b2d586f389c25aa
+      internalID: -142272174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_110
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e41e9f222a1d43822faf076c2d6cf
+      internalID: 304511271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_111
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bc6fe3e85a12343b688a572e7e0bbe
+      internalID: 1050712136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_112
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3348b6f59786643a23240db957ad05
+      internalID: -2091717145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_113
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0533dfe744342494899fe7810c0ecd6e
+      internalID: 1733305580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_114
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebedf3cd6b245cb4aa4756486d300920
+      internalID: 1392381156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_115
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa1adeef331ed4da488a33bf8548b1
+      internalID: 1339478462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_116
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4387ca2c59393c14a8049ec24ee9c419
+      internalID: 608199791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_117
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98391bfdf7cf8ec4eb93c440c5d77456
+      internalID: -14640816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_118
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43da5b08576ab6b4b9c1a5e872e3d58a
+      internalID: -371064599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_119
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d503fa1e706e2748ac9591607335f93
+      internalID: -2126871149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_120
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc534974e9361364faf19ce813e66946
+      internalID: 686661871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_121
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56218dec11863429715ad309487d5f
+      internalID: 495937567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_122
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b89eea2f6e68b244b6c3c32f0a587a0
+      internalID: 917674544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_123
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e3548d3bfdbc48a7aff0a40be0e8c
+      internalID: 2135342690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_124
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c22aeb45d600446b1d4a500f64b646
+      internalID: 655294583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_125
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 146
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8a47b1a51577848b910bc04f7287b9
+      internalID: -1574763170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_126
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 146
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1577fc205a5eb6b44a8bc6080d31fd83
+      internalID: 402745500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_127
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 146
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f437e2146c204a7469e54e09dd2e41f6
+      internalID: -1160358666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_128
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 146
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4ec04014bc73847acff22b377b2083
+      internalID: -1605641875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48160b46f597e64ab862616898ea810
+      internalID: -630653462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_130
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a6f4748da35543b2e0b977ce5be56
+      internalID: 1560479802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_131
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e025923fb3800f4da8f08ce076caf59
+      internalID: -300297803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_132
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cfb160b6306e5479f0cb75ad39f7fe
+      internalID: -1125565395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_133
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff23488a77be7234583e411b717a12ed
+      internalID: -1049824662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_134
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48520098fff7ab45937b8646b2bdc24
+      internalID: 1627808798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d83b2203f9a00244b67d1632f9c383e
+      internalID: -1779755803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_136
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6447ab30145cf74a85f3afe300a8a51
+      internalID: 773959462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_137
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18442fab7e1a9104bb47a0801783f9f8
+      internalID: -139817612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_138
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318da4ad8c878d3498dfb983c3856aca
+      internalID: -1835588530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_139
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25c90ba6ac7b445adc854deaded90b
+      internalID: 652930673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_140
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe46cde5d23d944cb34f7aa537b849d
+      internalID: -902812591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_141
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc801bd0a7ae2d14ba14785b5355fa75
+      internalID: -1203478425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_142
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dc94cd56ee9984ca4e435f546e6f7f
+      internalID: 256834705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_143
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7625430327e99cb4cb639b62ebfab807
+      internalID: -421675445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_144
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd02518971ab94891ecb6874134f8e
+      internalID: 470067246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_145
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b049d4f27d3ce49942f578235927de
+      internalID: -1780729472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_146
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff462e85d83b0664695ec670b7e5bd52
+      internalID: 1708004299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_147
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b5d0ac970a2a4c84c1489e8ed1f33
+      internalID: 1736169785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_148
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5334f50f970442a5df2ab6c643bfb
+      internalID: 684377099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_149
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b851b876449a1a34cbf9991da2ded0ac
+      internalID: -1476917379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_150
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dbe6866b26e0a47950ddd461112bc1
+      internalID: 2127527088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_151
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f9baea773cbf64d855813861c11f71
+      internalID: 960830148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_152
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeff83783e3d204ab1f1a72ba47af9d
+      internalID: -242192296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_153
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7428c53b9c269b34f942e79e8e40780a
+      internalID: -80839207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_154
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b52cd6593cde4479ab7ba964296ddc
+      internalID: -546231385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_155
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782ffe9a04622e64b9fd3649737142dc
+      internalID: 1974039875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_156
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb605284e3a5fa84b80023047b75e8b9
+      internalID: 1284852640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_157
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7d2ce4cab5a446bb5615ab1406b2d
+      internalID: 754868993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_158
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dec56237a9b0140a26d065dac35d85
+      internalID: -1054608422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_159
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce2861641a8c0418d7a2f973ca0997
+      internalID: -600341814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_160
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8dacf03111f64694f30ab8c2bddef
+      internalID: 647768688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_161
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd160122908adf64e9595e744ee5c53a
+      internalID: 1548885911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_162
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895f6c683bcd7c2489c80b9141ced511
+      internalID: 908365631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_163
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f8bc1735ff8464da6103544208018b
+      internalID: 321587715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_164
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e852128b331158447833fd02ddd72a99
+      internalID: -38182573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_165
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112c734e4865ee4fa40f8a79a5b4198
+      internalID: -1739010628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_166
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22374d2b0b7f8d41b2a74c2e9bc2d81
+      internalID: -1597576842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_167
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c48cb7ad3d2d64ebe892df03bc5b8a
+      internalID: -461761644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_168
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064bae4084db05e41a617880c95aba30
+      internalID: -1666002167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_169
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 122
+        width: 85
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf3f12402922184cb7f8720aa08d399
+      internalID: 1581787497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_170
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 122
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3e191138db69444be4f2e8b1982948
+      internalID: 946598842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_171
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 122
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120b5cfadc748664cbee78212672efbe
+      internalID: -1501543090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_172
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 122
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c127a2d31207c894ca16e57bd180b1af
+      internalID: -1702314340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_173
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 122
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2fdf72178a074d8982aa317de64a1
+      internalID: -1999234369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_174
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 131
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddf69f1388447242a6d75c28e116be5
+      internalID: -415233115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_175
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 131
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e1acb8eaca1d468b446903d19a7ff
+      internalID: -951570701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_176
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 132
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e8b520b36cb8d489d970431deeb09b
+      internalID: -358338718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_177
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 132
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c822363af84674abea3c78de2d32c7
+      internalID: -842558205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_178
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 115
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cf1a3e90852de419125266bd35aab9
+      internalID: -596028835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_179
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 115
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc244c4e2d09a64090e739d8522704f
+      internalID: -1194484948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_180
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 116
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd5911ebc87fea47b6818f96f1343de
+      internalID: 353618491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_181
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 116
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b701bbcd7f19c48abb84bdb295e4b6
+      internalID: -507555328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_182
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 66
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26e7e5ff7cfeb459ec779bebfec55e
+      internalID: 163397988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_183
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc37120cb701bd34a843b66c104c35c6
+      internalID: 924664939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_184
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 68
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c992aaa13e930b44aab222355b629716
+      internalID: -1321275168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_185
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 68
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f683efe5d69804ab2aa420ad55e333
+      internalID: -348656968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_186
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f918ebdad586438ee2e21a9bf6d63
+      internalID: -1422011797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_187
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 68
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51270137f6cfd5744b0f515ed33197b8
+      internalID: 658864407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_188
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 68
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabff41fabad1ee4a904081826d1ab36
+      internalID: 1204454744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_189
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 68
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f637e4a3eb4b784f8ea1e5823fe542a
+      internalID: 470602281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_190
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753221037c9eff6469c48011b65cf262
+      internalID: -2012901687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_191
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 67
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a7bffed31504a409d9a7b40ea8e524
+      internalID: 1176581016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_192
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 66
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048655f3062a3e24bbd57d2d5b6d6518
+      internalID: 94125674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_193
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e476d482108af254d92ba28afcd3ab4b
+      internalID: 874731857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_194
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 68
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e70186e898ae9042b652c361a6e8887
+      internalID: 462805385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_195
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e0d314f3f6f84fb2307aa31fd622c
+      internalID: -840288040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_196
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 69
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0301532a391da72408be1e029cd2faae
+      internalID: -1892226926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_197
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 76
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796725567e3a9b645add8c577a9f7396
+      internalID: -909108862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_198
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 69
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dd5f658d5b5b4498bcd6b05bc830ec
+      internalID: 1874285073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_199
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 69
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52afdc7a49e66294a85d696bb919e926
+      internalID: 903873060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_200
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 76
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308ee973b437f047ad1a0772bb01b0f
+      internalID: -1476602551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_201
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 69
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3971dc463686ec46a959a54566a2a04
+      internalID: -518225692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_202
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0444fc01798178b48aeca04e09911d5e
+      internalID: -467390985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_203
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 68
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1172458e972f4fa18f29028c78948
+      internalID: -238176088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_204
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 67
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebea2b177890e44cbba2cdb4c9956f4
+      internalID: -53034050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_205
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 67
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ea9f0807988214da3684a72fd47b29
+      internalID: 2141473200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_206
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105b8659592083547b5d1603db135022
+      internalID: -1846039426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_207
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd47aaf62da22e40ab3f5343c0eb3a1
+      internalID: 2030829324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_208
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15177dfb7cf3034a92c35e7443add9f
+      internalID: -678667335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_209
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 50
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e99e3ad1e15224ab777c69205d8375
+      internalID: -451645010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_210
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cebece387e92a43882fb1c8eb78758
+      internalID: 2055244655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_211
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b523a8ad30e550e488e8a62f8ae7e9c4
+      internalID: 1944324412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_212
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 54
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10ddf34c239bd142b706ab6de6e3388
+      internalID: -908171971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_213
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d6ccbfea2efbf4cb39a0816a497d05
+      internalID: 855467491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_214
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 50
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1581a264156334a9dd375b3d5a956d
+      internalID: 1045479254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_215
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 54
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87789fc4d106164ca07d34e10ce6147
+      internalID: 1185160922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_216
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 58
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720cef808e38d1489035c934e2a7e5e
+      internalID: -830725681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_217
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 54
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d9f5e959e93594481a8b9739dc3d37
+      internalID: 1031491842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_218
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad66cf09d9c794649b1c13d5bd9b0783
+      internalID: -1675445015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_219
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 51
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ccc350a3c1ba0448ea77b971abf232
+      internalID: -1893457359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_220
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e11c39d4aed1c42a7d444c7157b0b4
+      internalID: 1995661733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_221
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 50
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61418e7ec94198240aed746fac6a3275
+      internalID: -1635670984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_222
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4607c0dba091929489d84830c3b0a478
+      internalID: 632190138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_223
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5894429da67f95d4d863c6d16b1e1eb2
+      internalID: -2110954228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_224
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f72179508894f3408587d3dfc8a1ef4
+      internalID: -2069433460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_225
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f9f74981ace584bb63eee757b46119
+      internalID: -2034516772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_226
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedd62c503863a94bbf3dd2d9dba0aa4
+      internalID: 100196996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_227
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 50
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d12fc34d9c4843ba31a1179f78bb8
+      internalID: -532567263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_228
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 51
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d7e89a00e2a94ca4ffad00a288767
+      internalID: 1782763586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_229
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 51
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c4c78bbbd7ee347949a553a2c1dd22
+      internalID: -613674193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_230
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 50
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a317f9ff540cf04ea35b6ef6ec1ffcc
+      internalID: 257531896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_231
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 50
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8804222fdfbbc914ba600acc400c78a6
+      internalID: 1724428534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_232
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9dca6a78f52954ea6f481c48876ab0
+      internalID: 2085832560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_233
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318cd5dda81a0f442aeb5dedf315572e
+      internalID: 1815539200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_234
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda5209db7e2ca54aa4abf79e22f67d6
+      internalID: 2109772692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_235
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6974041331ef03458fe07141ceb2689
+      internalID: 363969017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_236
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e8b5acefa6760448ed93ea2f2738f0
+      internalID: 394043677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_237
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7641c34cd8206af4cad77821c2d7d171
+      internalID: -1735882298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_238
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca0a0160b6b554d86599e3ba32a3be
+      internalID: -1936274484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_239
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0c2971e7f5f0f439bb740090760a71
+      internalID: 974405361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_240
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 36
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd81e0caa315b46ba1914fe4d37cdf
+      internalID: -422321795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_241
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 36
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7848ad781ce974e9d75bff1ab3cf76
+      internalID: 561869667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_242
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833fe8b868352f64ea3f007fba213497
+      internalID: -24000541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_243
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6622e749334c0664fb30c8cd11cea6b5
+      internalID: 1932109727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_244
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a80852a19ecdd447b1bdf3298b1b1c0
+      internalID: -1547535790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_245
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f20f48cc306134d871e3ade2970ad9
+      internalID: 1065927449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_246
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cdf7b169d2e5b4bbaf1ad8b6e2d78d
+      internalID: -1234582934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_247
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2b74d8871228418625116b55e2cfe
+      internalID: 565168948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_248
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2684194b3ce36d45aa1356f69aebc28
+      internalID: -1325128662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_249
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aacc3a17b392146ad43f0da8e9de38
+      internalID: 1887324490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_250
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 36
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1a539645894574d94fcef1753e27ec
+      internalID: -925054223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_251
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 36
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b28314fc815e1347b3128639df1d9f8
+      internalID: 1910641297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_252
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c385098499dbc1d48a42521e7e2cc745
+      internalID: 1490415362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_253
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0987a9a9f8c10b944b2a303a19d45eae
+      internalID: 875711530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_254
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b9f6648c0935c4f951c7618033d745
+      internalID: -1817428349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_255
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce0f61d20994445b46dfab2e856479
+      internalID: 198537239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_256
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f32ecdc2a675934c8031c9b62c3a0d7
+      internalID: -903983808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_257
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d560dde153608c945bad772fff10e83a
+      internalID: -1707159958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_258
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e27fc37cf7d6045bfbcb3ceb8f9606
+      internalID: -438303124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_259
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074222e9f4d8024bbf7534222a517ad
+      internalID: 857210646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_260
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191ad4b9c53583f468ad58e2e3bba5ec
+      internalID: 536354993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_261
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 20
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6beeda649e79549b738da9c02da47a
+      internalID: 2035043609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_262
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833706af73d46574c8adb5bc096754b3
+      internalID: -128006541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_263
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fba05cc51c3f1d4da0ed3a74060c2b7
+      internalID: 326593889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_264
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13441ef8d32f0f45ba6729ffb1c84fe
+      internalID: 1557366626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_265
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e8810bfc94fc48a66ee770a7a4e2e
+      internalID: 1584277009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_266
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1f8a76aece4f48a27f3a528ef8fe4
+      internalID: 1803231063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_267
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c50987988db6794ab64466c016e4c9f
+      internalID: 470924947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_268
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 18
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d496c88e418d87443a7880cfb4b16d77
+      internalID: 7638137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_269
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 18
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f838e414503264d934cd2808b31858
+      internalID: 797570325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_270
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 20
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ed93babb7658b43b89d9118edddb1e
+      internalID: 116188130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_271
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66e4462c43bce84ba5ff770e33be4b3
+      internalID: 1998458690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_272
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d16f077b1b49fb41bc10ca1b46c4448
+      internalID: -976671379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_273
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3c918801d6010499e9e0c6c84b7475
+      internalID: 1480780373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_274
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b10454efdc0f794f9b176073baed110
+      internalID: 1067646099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_275
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14fb9668f8f049498b67ef7ad7ed245
+      internalID: -1631382285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_276
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7fb175f164ca34a9f8c32e6f983e4c
+      internalID: -479137583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_277
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0badcdde6525a6b4b8c962b04a161b95
+      internalID: -1531097723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_278
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf1dda0d4507f4295de777ff0599b1
+      internalID: 765230280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_279
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da51ea708fb73eb4c999d11ae114e9d8
+      internalID: -806280973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_280
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444dc76ff17ab8b41a54b3f72dd32721
+      internalID: 258723620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_281
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3d3c7f7c6363b469a4d3a950033b04
+      internalID: -990130820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_282
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41670708ba896949a6c10116305e174
+      internalID: -273703835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_283
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ffd644d99cf145a55dcd8418f489a
+      internalID: 697519925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_284
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6242c5f563460f046982e064cb668bde
+      internalID: -396426198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_285
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f738d3f47f1074fbd8836f6baaa697
+      internalID: 64273550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_286
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8c610f329a05e4aa92181a05f1805f
+      internalID: -517750399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all_input_glyphs_atlas_0_287
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8002b39d2bd73141b2daa14cbfb8de0
+      internalID: 1979775382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4fa6641e7ceb5ce4a8b30efc59cd6657
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      all_input_glyphs_atlas_0_0: -1201515196
+      all_input_glyphs_atlas_0_1: -1891633648
+      all_input_glyphs_atlas_0_10: 412717294
+      all_input_glyphs_atlas_0_100: -420683230
+      all_input_glyphs_atlas_0_101: 1976961397
+      all_input_glyphs_atlas_0_102: -1727416287
+      all_input_glyphs_atlas_0_103: -1635100766
+      all_input_glyphs_atlas_0_104: 1185000356
+      all_input_glyphs_atlas_0_105: -1879736777
+      all_input_glyphs_atlas_0_106: -1304518003
+      all_input_glyphs_atlas_0_107: -1847856289
+      all_input_glyphs_atlas_0_108: 1708056644
+      all_input_glyphs_atlas_0_109: -142272174
+      all_input_glyphs_atlas_0_11: 109432594
+      all_input_glyphs_atlas_0_110: 304511271
+      all_input_glyphs_atlas_0_111: 1050712136
+      all_input_glyphs_atlas_0_112: -2091717145
+      all_input_glyphs_atlas_0_113: 1733305580
+      all_input_glyphs_atlas_0_114: 1392381156
+      all_input_glyphs_atlas_0_115: 1339478462
+      all_input_glyphs_atlas_0_116: 608199791
+      all_input_glyphs_atlas_0_117: -14640816
+      all_input_glyphs_atlas_0_118: -371064599
+      all_input_glyphs_atlas_0_119: -2126871149
+      all_input_glyphs_atlas_0_12: 1265386763
+      all_input_glyphs_atlas_0_120: 686661871
+      all_input_glyphs_atlas_0_121: 495937567
+      all_input_glyphs_atlas_0_122: 917674544
+      all_input_glyphs_atlas_0_123: 2135342690
+      all_input_glyphs_atlas_0_124: 655294583
+      all_input_glyphs_atlas_0_125: -1574763170
+      all_input_glyphs_atlas_0_126: 402745500
+      all_input_glyphs_atlas_0_127: -1160358666
+      all_input_glyphs_atlas_0_128: -1605641875
+      all_input_glyphs_atlas_0_129: -630653462
+      all_input_glyphs_atlas_0_13: -960988127
+      all_input_glyphs_atlas_0_130: 1560479802
+      all_input_glyphs_atlas_0_131: -300297803
+      all_input_glyphs_atlas_0_132: -1125565395
+      all_input_glyphs_atlas_0_133: -1049824662
+      all_input_glyphs_atlas_0_134: 1627808798
+      all_input_glyphs_atlas_0_135: -1779755803
+      all_input_glyphs_atlas_0_136: 773959462
+      all_input_glyphs_atlas_0_137: -139817612
+      all_input_glyphs_atlas_0_138: -1835588530
+      all_input_glyphs_atlas_0_139: 652930673
+      all_input_glyphs_atlas_0_14: -1992448074
+      all_input_glyphs_atlas_0_140: -902812591
+      all_input_glyphs_atlas_0_141: -1203478425
+      all_input_glyphs_atlas_0_142: 256834705
+      all_input_glyphs_atlas_0_143: -421675445
+      all_input_glyphs_atlas_0_144: 470067246
+      all_input_glyphs_atlas_0_145: -1780729472
+      all_input_glyphs_atlas_0_146: 1708004299
+      all_input_glyphs_atlas_0_147: 1736169785
+      all_input_glyphs_atlas_0_148: 684377099
+      all_input_glyphs_atlas_0_149: -1476917379
+      all_input_glyphs_atlas_0_15: 472831511
+      all_input_glyphs_atlas_0_150: 2127527088
+      all_input_glyphs_atlas_0_151: 960830148
+      all_input_glyphs_atlas_0_152: -242192296
+      all_input_glyphs_atlas_0_153: -80839207
+      all_input_glyphs_atlas_0_154: -546231385
+      all_input_glyphs_atlas_0_155: 1974039875
+      all_input_glyphs_atlas_0_156: 1284852640
+      all_input_glyphs_atlas_0_157: 754868993
+      all_input_glyphs_atlas_0_158: -1054608422
+      all_input_glyphs_atlas_0_159: -600341814
+      all_input_glyphs_atlas_0_16: 8572157
+      all_input_glyphs_atlas_0_160: 647768688
+      all_input_glyphs_atlas_0_161: 1548885911
+      all_input_glyphs_atlas_0_162: 908365631
+      all_input_glyphs_atlas_0_163: 321587715
+      all_input_glyphs_atlas_0_164: -38182573
+      all_input_glyphs_atlas_0_165: -1739010628
+      all_input_glyphs_atlas_0_166: -1597576842
+      all_input_glyphs_atlas_0_167: -461761644
+      all_input_glyphs_atlas_0_168: -1666002167
+      all_input_glyphs_atlas_0_169: 1581787497
+      all_input_glyphs_atlas_0_17: 597555302
+      all_input_glyphs_atlas_0_170: 946598842
+      all_input_glyphs_atlas_0_171: -1501543090
+      all_input_glyphs_atlas_0_172: -1702314340
+      all_input_glyphs_atlas_0_173: -1999234369
+      all_input_glyphs_atlas_0_174: -415233115
+      all_input_glyphs_atlas_0_175: -951570701
+      all_input_glyphs_atlas_0_176: -358338718
+      all_input_glyphs_atlas_0_177: -842558205
+      all_input_glyphs_atlas_0_178: -596028835
+      all_input_glyphs_atlas_0_179: -1194484948
+      all_input_glyphs_atlas_0_18: 1547059592
+      all_input_glyphs_atlas_0_180: 353618491
+      all_input_glyphs_atlas_0_181: -507555328
+      all_input_glyphs_atlas_0_182: 163397988
+      all_input_glyphs_atlas_0_183: 924664939
+      all_input_glyphs_atlas_0_184: -1321275168
+      all_input_glyphs_atlas_0_185: -348656968
+      all_input_glyphs_atlas_0_186: -1422011797
+      all_input_glyphs_atlas_0_187: 658864407
+      all_input_glyphs_atlas_0_188: 1204454744
+      all_input_glyphs_atlas_0_189: 470602281
+      all_input_glyphs_atlas_0_19: 1545279078
+      all_input_glyphs_atlas_0_190: -2012901687
+      all_input_glyphs_atlas_0_191: 1176581016
+      all_input_glyphs_atlas_0_192: 94125674
+      all_input_glyphs_atlas_0_193: 874731857
+      all_input_glyphs_atlas_0_194: 462805385
+      all_input_glyphs_atlas_0_195: -840288040
+      all_input_glyphs_atlas_0_196: -1892226926
+      all_input_glyphs_atlas_0_197: -909108862
+      all_input_glyphs_atlas_0_198: 1874285073
+      all_input_glyphs_atlas_0_199: 903873060
+      all_input_glyphs_atlas_0_2: 476142264
+      all_input_glyphs_atlas_0_20: 120291830
+      all_input_glyphs_atlas_0_200: -1476602551
+      all_input_glyphs_atlas_0_201: -518225692
+      all_input_glyphs_atlas_0_202: -467390985
+      all_input_glyphs_atlas_0_203: -238176088
+      all_input_glyphs_atlas_0_204: -53034050
+      all_input_glyphs_atlas_0_205: 2141473200
+      all_input_glyphs_atlas_0_206: -1846039426
+      all_input_glyphs_atlas_0_207: 2030829324
+      all_input_glyphs_atlas_0_208: -678667335
+      all_input_glyphs_atlas_0_209: -451645010
+      all_input_glyphs_atlas_0_21: -1444379773
+      all_input_glyphs_atlas_0_210: 2055244655
+      all_input_glyphs_atlas_0_211: 1944324412
+      all_input_glyphs_atlas_0_212: -908171971
+      all_input_glyphs_atlas_0_213: 855467491
+      all_input_glyphs_atlas_0_214: 1045479254
+      all_input_glyphs_atlas_0_215: 1185160922
+      all_input_glyphs_atlas_0_216: -830725681
+      all_input_glyphs_atlas_0_217: 1031491842
+      all_input_glyphs_atlas_0_218: -1675445015
+      all_input_glyphs_atlas_0_219: -1893457359
+      all_input_glyphs_atlas_0_22: 635745202
+      all_input_glyphs_atlas_0_220: 1995661733
+      all_input_glyphs_atlas_0_221: -1635670984
+      all_input_glyphs_atlas_0_222: 632190138
+      all_input_glyphs_atlas_0_223: -2110954228
+      all_input_glyphs_atlas_0_224: -2069433460
+      all_input_glyphs_atlas_0_225: -2034516772
+      all_input_glyphs_atlas_0_226: 100196996
+      all_input_glyphs_atlas_0_227: -532567263
+      all_input_glyphs_atlas_0_228: 1782763586
+      all_input_glyphs_atlas_0_229: -613674193
+      all_input_glyphs_atlas_0_23: 543311313
+      all_input_glyphs_atlas_0_230: 257531896
+      all_input_glyphs_atlas_0_231: 1724428534
+      all_input_glyphs_atlas_0_232: 2085832560
+      all_input_glyphs_atlas_0_233: 1815539200
+      all_input_glyphs_atlas_0_234: 2109772692
+      all_input_glyphs_atlas_0_235: 363969017
+      all_input_glyphs_atlas_0_236: 394043677
+      all_input_glyphs_atlas_0_237: -1735882298
+      all_input_glyphs_atlas_0_238: -1936274484
+      all_input_glyphs_atlas_0_239: 974405361
+      all_input_glyphs_atlas_0_24: 1437819522
+      all_input_glyphs_atlas_0_240: -422321795
+      all_input_glyphs_atlas_0_241: 561869667
+      all_input_glyphs_atlas_0_242: -24000541
+      all_input_glyphs_atlas_0_243: 1932109727
+      all_input_glyphs_atlas_0_244: -1547535790
+      all_input_glyphs_atlas_0_245: 1065927449
+      all_input_glyphs_atlas_0_246: -1234582934
+      all_input_glyphs_atlas_0_247: 565168948
+      all_input_glyphs_atlas_0_248: -1325128662
+      all_input_glyphs_atlas_0_249: 1887324490
+      all_input_glyphs_atlas_0_25: -1948030288
+      all_input_glyphs_atlas_0_250: -925054223
+      all_input_glyphs_atlas_0_251: 1910641297
+      all_input_glyphs_atlas_0_252: 1490415362
+      all_input_glyphs_atlas_0_253: 875711530
+      all_input_glyphs_atlas_0_254: -1817428349
+      all_input_glyphs_atlas_0_255: 198537239
+      all_input_glyphs_atlas_0_256: -903983808
+      all_input_glyphs_atlas_0_257: -1707159958
+      all_input_glyphs_atlas_0_258: -438303124
+      all_input_glyphs_atlas_0_259: 857210646
+      all_input_glyphs_atlas_0_26: 1315456901
+      all_input_glyphs_atlas_0_260: 536354993
+      all_input_glyphs_atlas_0_261: 2035043609
+      all_input_glyphs_atlas_0_262: -128006541
+      all_input_glyphs_atlas_0_263: 326593889
+      all_input_glyphs_atlas_0_264: 1557366626
+      all_input_glyphs_atlas_0_265: 1584277009
+      all_input_glyphs_atlas_0_266: 1803231063
+      all_input_glyphs_atlas_0_267: 470924947
+      all_input_glyphs_atlas_0_268: 7638137
+      all_input_glyphs_atlas_0_269: 797570325
+      all_input_glyphs_atlas_0_27: 1897506893
+      all_input_glyphs_atlas_0_270: 116188130
+      all_input_glyphs_atlas_0_271: 1998458690
+      all_input_glyphs_atlas_0_272: -976671379
+      all_input_glyphs_atlas_0_273: 1480780373
+      all_input_glyphs_atlas_0_274: 1067646099
+      all_input_glyphs_atlas_0_275: -1631382285
+      all_input_glyphs_atlas_0_276: -479137583
+      all_input_glyphs_atlas_0_277: -1531097723
+      all_input_glyphs_atlas_0_278: 765230280
+      all_input_glyphs_atlas_0_279: -806280973
+      all_input_glyphs_atlas_0_28: -314515790
+      all_input_glyphs_atlas_0_280: 258723620
+      all_input_glyphs_atlas_0_281: -990130820
+      all_input_glyphs_atlas_0_282: -273703835
+      all_input_glyphs_atlas_0_283: 697519925
+      all_input_glyphs_atlas_0_284: -396426198
+      all_input_glyphs_atlas_0_285: 64273550
+      all_input_glyphs_atlas_0_286: -517750399
+      all_input_glyphs_atlas_0_287: 1979775382
+      all_input_glyphs_atlas_0_29: -2027150833
+      all_input_glyphs_atlas_0_3: -711483101
+      all_input_glyphs_atlas_0_30: 631646783
+      all_input_glyphs_atlas_0_31: 1713453996
+      all_input_glyphs_atlas_0_32: -2134249610
+      all_input_glyphs_atlas_0_33: 1576821718
+      all_input_glyphs_atlas_0_34: -1816561994
+      all_input_glyphs_atlas_0_35: 1862104184
+      all_input_glyphs_atlas_0_36: 1486041445
+      all_input_glyphs_atlas_0_37: 1704003777
+      all_input_glyphs_atlas_0_38: 1863083875
+      all_input_glyphs_atlas_0_39: -199272499
+      all_input_glyphs_atlas_0_4: 683351107
+      all_input_glyphs_atlas_0_40: 109755256
+      all_input_glyphs_atlas_0_41: -1485362549
+      all_input_glyphs_atlas_0_42: -180073394
+      all_input_glyphs_atlas_0_43: -724854121
+      all_input_glyphs_atlas_0_44: -240320638
+      all_input_glyphs_atlas_0_45: -564404768
+      all_input_glyphs_atlas_0_46: -1769538270
+      all_input_glyphs_atlas_0_47: 749485382
+      all_input_glyphs_atlas_0_48: 730411487
+      all_input_glyphs_atlas_0_49: -1692113744
+      all_input_glyphs_atlas_0_5: -369902275
+      all_input_glyphs_atlas_0_50: 1048413470
+      all_input_glyphs_atlas_0_51: 2125070341
+      all_input_glyphs_atlas_0_52: 868671052
+      all_input_glyphs_atlas_0_53: -33596887
+      all_input_glyphs_atlas_0_54: -785125720
+      all_input_glyphs_atlas_0_55: -1584396067
+      all_input_glyphs_atlas_0_56: 634512046
+      all_input_glyphs_atlas_0_57: -1687294729
+      all_input_glyphs_atlas_0_58: 1804826091
+      all_input_glyphs_atlas_0_59: 1446586652
+      all_input_glyphs_atlas_0_6: 545649553
+      all_input_glyphs_atlas_0_60: 695165889
+      all_input_glyphs_atlas_0_61: -1052976044
+      all_input_glyphs_atlas_0_62: -824192087
+      all_input_glyphs_atlas_0_63: 53532547
+      all_input_glyphs_atlas_0_64: 903922309
+      all_input_glyphs_atlas_0_65: 1325533972
+      all_input_glyphs_atlas_0_66: -912404561
+      all_input_glyphs_atlas_0_67: 1943216355
+      all_input_glyphs_atlas_0_68: -968474134
+      all_input_glyphs_atlas_0_69: -73521601
+      all_input_glyphs_atlas_0_7: -432119340
+      all_input_glyphs_atlas_0_70: -1712939247
+      all_input_glyphs_atlas_0_71: 1050213284
+      all_input_glyphs_atlas_0_72: 1200398551
+      all_input_glyphs_atlas_0_73: 1523764497
+      all_input_glyphs_atlas_0_74: -1457127335
+      all_input_glyphs_atlas_0_75: -1303541319
+      all_input_glyphs_atlas_0_76: -1561460049
+      all_input_glyphs_atlas_0_77: -945213292
+      all_input_glyphs_atlas_0_78: -1136728208
+      all_input_glyphs_atlas_0_79: -1947473277
+      all_input_glyphs_atlas_0_8: 856026530
+      all_input_glyphs_atlas_0_80: 1453223834
+      all_input_glyphs_atlas_0_81: 1765488606
+      all_input_glyphs_atlas_0_82: 1299937275
+      all_input_glyphs_atlas_0_83: -1064620547
+      all_input_glyphs_atlas_0_84: -1201974108
+      all_input_glyphs_atlas_0_85: 1803093132
+      all_input_glyphs_atlas_0_86: 347378430
+      all_input_glyphs_atlas_0_87: 35514479
+      all_input_glyphs_atlas_0_88: -1670355350
+      all_input_glyphs_atlas_0_89: 89056180
+      all_input_glyphs_atlas_0_9: -1469652119
+      all_input_glyphs_atlas_0_90: -1994104967
+      all_input_glyphs_atlas_0_91: -1824178027
+      all_input_glyphs_atlas_0_92: -100364866
+      all_input_glyphs_atlas_0_93: 774414178
+      all_input_glyphs_atlas_0_94: 116771576
+      all_input_glyphs_atlas_0_95: -1858424242
+      all_input_glyphs_atlas_0_96: -1708187683
+      all_input_glyphs_atlas_0_97: 1981358000
+      all_input_glyphs_atlas_0_98: -1180069142
+      all_input_glyphs_atlas_0_99: 1413999465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

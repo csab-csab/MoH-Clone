@@ -2629,6 +2629,7 @@ MonoBehaviour:
   raycastLayers:
     serializedVersion: 2
     m_Bits: 1
+  isReloadPromptActive: 0
   animator: {fileID: 7727686720729984403}
   animController: {fileID: 22100000, guid: 84796cb59980ee945bc7a764f96fb7b9, type: 2}
   gunFireSource: {fileID: 567685400}
@@ -7791,6 +7792,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617454491}
   m_Mesh: {fileID: -5248503323231389492, guid: a2675faa1182f094f8b4bc4fc305d601, type: 3}
+--- !u!1 &1651672177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651672179}
+  - component: {fileID: 1651672178}
+  m_Layer: 0
+  m_Name: Persistent Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1651672178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651672177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74ffe310f5cc374694585b757fd5a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GlyphDisplayHelper
+  currentInputDevice: 0
+--- !u!4 &1651672179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651672177}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.89831, y: 0.35, z: 2.43246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1667314526
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8153,6 +8199,7 @@ MonoBehaviour:
   raycastLayers:
     serializedVersion: 2
     m_Bits: 1
+  isReloadPromptActive: 0
   animator: {fileID: 7727686720729984403}
   animController: {fileID: 22100000, guid: 9beb93c4d861d29428939e6942f4aa70, type: 2}
   gunFireSource: {fileID: 1686439908}
@@ -8368,7 +8415,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerInteract: {fileID: 1982596838}
-  mkSpriteAtlas: {fileID: 11400000, guid: c4508c5d4a4cf4841aebacdaab54a19b, type: 2}
+  inputHandler: {fileID: 1982596831}
+  inputDeviceTracker: {fileID: 1651672178}
+  mkSpriteAtlas: {fileID: 11400000, guid: 40d8af78a203d6449b8b3cb6d7a77fbb, type: 2}
+  bindGlyphDictionary:
+  - _bindName: E
+    _atlasIndex: 44
+  - _bindName: E Pressed
+    _atlasIndex: 45
+  - _bindName: R
+    _atlasIndex: 97
   crosshair: {fileID: 797410815}
   weaponName: {fileID: 381726421}
   ammoText: {fileID: 632367814}
@@ -9177,6 +9233,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b49291a42840a4dbe82e051d7d6248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  _inputDeviceTracker: {fileID: 0}
+  _inputActionAsset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!143 &1982596832
 CharacterController:
   m_ObjectHideFlags: 0
@@ -21709,6 +21767,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1651672179}
   - {fileID: 1844310860}
   - {fileID: 410087041}
   - {fileID: 832575519}

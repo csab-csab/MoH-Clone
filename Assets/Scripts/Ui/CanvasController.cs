@@ -1,5 +1,8 @@
+using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -7,9 +10,31 @@ public class CanvasController : MonoBehaviour
 {
   [Header("Script References")]
   [SerializeField]private PlayerInteract playerInteract;
+  [SerializeField]private InputHandler inputHandler;
+  [SerializeField]private InputDeviceTracker inputDeviceTracker;
+  private InputDeviceTracker.CurrentInputDevice _currentInputDevice => inputDeviceTracker.ReturnCurrentInputDevice();
   
-  [Header("Atlas References")]
+  #region Glyphs
+  [Header("Glyphs References")]
   [SerializeField]private TMP_Asset mkSpriteAtlas;
+
+  [System.Serializable]
+  struct BindGlyphDictionary
+  {
+    [SerializeField]private string _bindName;
+    [SerializeField]private int _atlasIndex;
+    
+    // Public getters to read the private serialized data
+    public string bindName => _bindName;
+    public int atlasIndex => _atlasIndex;
+  }
+  
+  [SerializeField]private BindGlyphDictionary[] bindGlyphDictionary;
+  
+  //dictionary reference
+  private Dictionary<string, int> _bindGlyphLookupDictionary = new Dictionary<string, int>();
+  
+  #endregion
   
   
   [Header("Text References")]
@@ -25,8 +50,20 @@ public class CanvasController : MonoBehaviour
   
   [Header("Interact UI References")]
   [SerializeField]private TextMeshProUGUI interactText;
+
  
+
   
+  private void Start()
+  {
+    //Add each element from inspector assigned array to
+    //dictionary
+    foreach (var bindGlyphEntry in bindGlyphDictionary)
+    {
+      _bindGlyphLookupDictionary.TryAdd(bindGlyphEntry.bindName, bindGlyphEntry.atlasIndex);
+    }
+  }
+
   void Update()
   {
     UpdateCrosshair(playerInteract.ReturnIsLookingAtEnemy());
@@ -64,26 +101,73 @@ public class CanvasController : MonoBehaviour
     ammoText.text = $"{currentAmmo}/{carriedAmmo}";
   }
 
-  
-  //Maybe build a dictionary for sprite index lookups?
-  //for example:
-  //1. build array of sprite indexes (int)
-  //2. build array of what button they represent (string)
-  //3. assign in inspector
-  //3. create dictionary in start()
-  public void TestInteractText()
+  /// <summary>
+  /// Used for showing interact prompts, includes embedded button glyphs
+  /// </summary>
+  /// <param name="inputActionMapName"> Input action map declared input action asset ("eg: player, weapon)</param>
+  /// <param name="promptVerb"> Press or hold</param>
+  /// <param name="actionName"> Interact</param>
+  /// <param name="displayActionName">Specific action used for displaying to player,
+  ///   such as open when looking at door</param>
+  /// <param name="pressed"> Replaces glyph with pressed down glyph</param>
+  public void ShowPrompt(string inputActionMapName, string promptVerb, 
+    string actionName, string displayActionName = null, bool pressed = false)
   {
-    int index = 82;
-    string spriteTag = $"<size=120%><sprite={index}></size>";
+    InputActionMap inputActionMap =  inputHandler.inputActionAsset.FindActionMap(inputActionMapName);
 
-    interactText.text = $"Press {spriteTag} to open door";
-
-    RectTransform rectTransform = interactText.GetComponentInChildren<RectTransform>();
-    
-    if (rectTransform != null)
+    if (inputActionMap == null)
     {
-      rectTransform.localPosition = new Vector3(12, -12, 0);
+      Debug.LogError($"{inputActionMapName} not found, check you have checked map name correctly.");
+      return;
+    }
+    
+    InputAction currentAction =  inputActionMap.FindAction(actionName);
+    
+    if (currentAction == null)
+    {
+      Debug.LogError($"No current action found for {inputActionMapName}");
+      return;
     }
 
+    string bindName = "";
+    string spriteTag = "";
+    string promptText = "";
+    
+    switch (_currentInputDevice)
+    {
+      case InputDeviceTracker.CurrentInputDevice.Keyboard:
+        bindName = currentAction.GetBindingDisplayString(InputBinding.DisplayStringOptions.DontIncludeInteractions,
+          group: "Keyboard&Mouse");
+        break;
+      
+      case InputDeviceTracker.CurrentInputDevice.XboxPad:
+        bindName = currentAction.GetBindingDisplayString(InputBinding.DisplayStringOptions.DontIncludeInteractions,
+          group: "Gamepad") + "Xbox";
+        break;
+      
+      case InputDeviceTracker.CurrentInputDevice.PsPad:
+        bindName = currentAction.GetBindingDisplayString(InputBinding.DisplayStringOptions.DontIncludeInteractions
+          ,group: "Gamepad") + "PS";
+        break;
+    }
+    
+    if (_bindGlyphLookupDictionary.TryGetValue(bindName, out var spriteIndex))
+    {
+      if (pressed)
+      {
+        spriteIndex++;
+      }
+      spriteTag = $"<voffset=0.2em><space=0.5em><size=120%><sprite={spriteIndex}></size><space=-0.5em></voffset>";
+    }
+
+    string finalAction = string.IsNullOrWhiteSpace(displayActionName) ? actionName : displayActionName;
+    promptText = $"{promptVerb} {spriteTag} to {finalAction}";
+    
+    interactText.text = promptText;
+  }
+
+  public void ClearPromptText()
+  {
+    interactText.text = string.Empty;
   }
 }

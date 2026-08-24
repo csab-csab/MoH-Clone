@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 //Handles player movement and player physics
 public class PlayerMovement : MonoBehaviour
 {
@@ -31,10 +32,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private float gravity = -9.81f;
     [SerializeField]private float groundForce = -2f; // Force to push player down ensure stays grounded
     private float _verticalVelocity;
+    
 
     //Events
     public delegate void CrouchAction(bool isCrouching);
     public event CrouchAction OnCrouchChanged;
+    
+    
     
     
     private void Awake()

@@ -229,5 +229,9 @@ public class WeaponManager : MonoBehaviour
   }
 
   #endregion
-  
+
+  public InputHandler AccessInputHandler()
+  {
+    return inputHandler;
+  }
 }
