@@ -1,0 +1,9 @@
+{
+  "baseHealth": 100,
+  "baseSpeed":  10,
+  "chaseSpeed":  20,
+  "baseDamage": 25,
+  "basePatrolRange": 25,
+  "baseChaseRange": 10,
+  "baseAttackRange": 5
+}
