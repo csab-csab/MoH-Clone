@@ -104,7 +104,7 @@ public class Weapon : MonoBehaviour
             {
                 try
                 {
-                    enemy.TakeDamage(weaponData.damage);
+                    enemy.TakeDamage(weaponData.damage, hit);
                 }
                 catch (Exception e)
                 {
