@@ -60,6 +60,10 @@ public class Enemy : MonoBehaviour
    private float baseSpeed => enemyBaseStats.baseSpeed;
    [SerializeField] private float currentChaseSpeed;
    private float baseChaseSpeed => enemyBaseStats.chaseSpeed;
+  
+   //Colliders
+   private SphereCollider _headCollider;
+   private CapsuleCollider _bodyCollider;
    #endregion
 
 
@@ -67,22 +71,48 @@ public class Enemy : MonoBehaviour
    {
       enemyBaseStats = CentralDataManager.instance.ReturnEnemyBaseStats();
       currentHealth = baseHealth;
+      
+      _headCollider = this.GetComponent<SphereCollider>();
+      _bodyCollider = this.GetComponent<CapsuleCollider>();
+      
+      ToggleColliders(true);
    }
    
-
-   public void TakeDamage(float damage)
+/// <summary>
+/// Used to take damage. If hit is passed, damage multiplier is applied for headshots
+/// </summary>
+/// <param name="damage"></param>
+/// <param name="hit"></param>
+   public void TakeDamage(float damage, RaycastHit hit = default)
    {
+      if (hit.collider != null)
+      {
+         //Headshot collider
+         if (hit.collider.GetType() == typeof(SphereCollider))
+         {
+            damage *= 4;
+            print("Headshot!");
+         }
+      }
+      
       currentHealth -= damage;
       if (currentHealth <= 0)
       {
          Die();
       }
    }
-   
+
+   private void ToggleColliders(bool enabled)
+   {
+     _headCollider.enabled = enabled;
+     _bodyCollider.enabled = enabled;
+   }
+
    private void Die()
    { 
       ResetAllAnimatorParameters(true);
-      
+
+      ToggleColliders(false);
       //Implement object pooling
       Destroy(gameObject, 5f);
    }
