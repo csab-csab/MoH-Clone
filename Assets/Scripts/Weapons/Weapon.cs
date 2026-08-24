@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
-using UnityEngine.Animations;
 
 //The base class for all weapons
 public class Weapon : MonoBehaviour
@@ -39,8 +38,12 @@ public class Weapon : MonoBehaviour
     //Used for fire rate
     private float _timeSinceLastShot;
 
+    public bool isReloadPromptActive = false;
+  
+
     //Used for debugging the raycast
     private Transform _drawFrom;
+    
     
     [Header("Animation")]
     [SerializeField] private Animator animator;
@@ -62,7 +65,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float ejectionForce;
     
     //Automatically assigned by WeaponManager
-    private CanvasController _canvasController;
+    protected CanvasController _canvasController;
     
     private void Start()
     {
@@ -94,24 +97,25 @@ public class Weapon : MonoBehaviour
         }
 
         var hit = CastRay(raycastFrom);
-        
-        if (hit.transform.TryGetComponent<Enemy>(out var enemy))
+
+        if (hit.transform != null)
         {
-            try
+            if (hit.transform.TryGetComponent<Enemy>(out var enemy))
             {
-                enemy.TakeDamage(weaponData.damage);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
+                try
+                {
+                    enemy.TakeDamage(weaponData.damage);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
             
-            Debug.Log($"dealt damage{weaponData.damage}");
+                Debug.Log($"dealt damage{weaponData.damage}");
+            } 
         }
-           
         
-        
+        //Play animation
         //Play animation
         //This is better than set trigger because when spamming shoot set trigger can lag behind
         //making the animation look poo
@@ -176,6 +180,12 @@ public class Weapon : MonoBehaviour
         if (_canvasController != null)
         {
             _canvasController.UpdateAmmoText(CurrentAmmo, _currentCarriedAmmo);
+            
+            if (isReloadPromptActive)
+            {
+                _canvasController.ClearPromptText();
+                isReloadPromptActive = false;
+            }
         }
     }
 
@@ -198,7 +208,13 @@ public class Weapon : MonoBehaviour
 
     private void SpendAmmo()
     {
-        CurrentAmmo--; 
+        CurrentAmmo--;
+
+        if ( !isReloadPromptActive &&CurrentAmmo <= weaponData.magSize/4)
+        {
+            isReloadPromptActive = true;
+            _canvasController.ShowPrompt("Weapons","Press", "Reload", "reload");
+        }
     }
 
     #region Raycast
@@ -380,7 +396,32 @@ public class Weapon : MonoBehaviour
             Debug.LogError("No animator or override controller component assigned");
         }
     }
+
+    private void OnEnable()
+    {
+        if (_canvasController == null)
+        {
+            return;
+        }
+        
+        if ( !isReloadPromptActive && CurrentAmmo <= weaponData.magSize/4)
+        {
+            isReloadPromptActive = true;
+            _canvasController.ShowPrompt("Weapons","Press", "Reload");
+        }
+        else
+        {
+            isReloadPromptActive = false;
+            _canvasController.ClearPromptText();
+        }
+    }
     
+      private void OnDisable()
+    {
+        isReloadPromptActive = false;
+        _canvasController.ClearPromptText();
+    }
+
     #endregion
     
     private void OnDrawGizmos()

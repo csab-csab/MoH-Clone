@@ -1,10 +1,19 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 //Collects inputs and stores them so they can be accessed by other scripts
 public class InputHandler : MonoBehaviour
 {
-    //Reference to input reader script
+    [Header("Script References")]
+    //So we don't need to make it a single, and we can still access it where needed
+    [SerializeField]private InputDeviceTracker _inputDeviceTracker;
+    public InputDeviceTracker inputDeviceTracker => _inputDeviceTracker;
     private InputReader.InputReader _controls;
+    //this allows us to access input actions such as interact, reload so we can get the binds
+    //this setup allows us to assign in the inspector while also allowing other scripts to access it through a reference
+    [SerializeField] private InputActionAsset _inputActionAsset;
+    public InputActionAsset  inputActionAsset => _inputActionAsset;
 
     //Data available to other scripts (read-only)
     public Vector2 moveInput {get; private set;}

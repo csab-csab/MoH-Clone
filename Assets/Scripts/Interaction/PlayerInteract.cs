@@ -16,25 +16,51 @@ public class PlayerInteract : MonoBehaviour
     [Header("Raycast out variables")] 
     private bool _isLookingAtEnemy;
 
+    //Used for caching interactable we are looking at
+    //Thought: maybe create an interactable base class all interactables derive from?
+    private DoorScript _currentDoorScript;
+    
+
     void Update()
     {
-        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var hit, rayCastRange, raycastMask))
-        {
-            if (hit.transform.TryGetComponent<DoorScript>(out var doorScript))
-            {
-                canvasController.TestInteractText();
-                if (inputHandler.interactPressed)
-                {
-                    doorScript.InteractWithDoor(); 
-                }
-            } 
-        }
-        
+      CheckInteractionRaycast();
+    }
+
+    private void CheckInteractionRaycast()
+    {  
         //Raycast with longer range for crosshair colour change
         if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, 1000, raycastMask))
         {
             _isLookingAtEnemy = raycastHit.transform.TryGetComponent<Enemy>(out _); 
         }
+        
+        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var hit, rayCastRange, raycastMask))
+        {
+            if (hit.transform.TryGetComponent<DoorScript>(out var doorScript))
+            {
+                if (_currentDoorScript != doorScript)
+                {
+                    _currentDoorScript = doorScript;
+                    canvasController.ShowPrompt("Player", "Press", "Interact",
+                        "Open/Close");
+                } 
+                
+                if (inputHandler.interactPressed)
+                {
+                    doorScript.InteractWithDoor(); 
+                }
+                
+                return;
+            } 
+        }
+
+        // Raycast hit nothing or looked away from the door
+        if (_currentDoorScript != null)
+        {
+            _currentDoorScript = null;
+            canvasController.ClearPromptText(); // Only runs ONCE when looking away
+        }
+        
     }
     
     #region Getter Functions

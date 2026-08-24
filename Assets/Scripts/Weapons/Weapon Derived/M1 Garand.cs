@@ -22,6 +22,13 @@ public class M1Garand : Weapon
     {
         base.Shoot(raycastFrom);
 
+        //prevent us seeing reload prompt on interact script
+        if (base.isReloadPromptActive)
+        {
+            base.isReloadPromptActive = false;
+            base._canvasController.ClearPromptText();
+        }
+        
         //don't eject clip if mag is not empty, if we are reloading,
         //or if we are out of ammo
         if (CurrentAmmo > 0 || IsReloading() || isOutOfAmmo)
