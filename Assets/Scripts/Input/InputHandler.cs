@@ -42,6 +42,9 @@ public class InputHandler : MonoBehaviour
     
     public delegate void SwitchToSecondaryAction(int neg);
     public event SwitchToSecondaryAction OnSwitchToSecondaryBtnPressed;
+    
+    public delegate void ToggleSwitchAction();
+    public event ToggleSwitchAction OnToggleSwitchBtnPressed;
     #endregion
    
     
@@ -104,6 +107,8 @@ public class InputHandler : MonoBehaviour
         _controls.Weapons.SwitchToSecondary.performed += ctx => OnSwitchToSecondaryBtnPressed?.Invoke(-1);
        
         _controls.Weapons.SwitchToPrimary.performed += ctx => isSprinting = false;
+        
+        _controls.Weapons.ToggleSwitch.performed += ctx => OnToggleSwitchBtnPressed?.Invoke();
 
         #endregion
     }

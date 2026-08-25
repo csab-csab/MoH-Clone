@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.AI;
 
-//Enemy Base Properties will be stored in a json so they can be adjusted even after building the game
+//Enemy Base Properties will be stored in a JSON so they can be adjusted even after building the game
 [System.Serializable]
 public class EnemyBaseStats
 {
@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
    private static readonly int Death = Animator.StringToHash("Status_death");
    #endregion
 
-   public enum State { Idle, Patrol, Chase, Attack };
+   public enum State { Idle, Patrol, Chase, Attack, Dead };
    public State currentState;
    
    #region References
@@ -42,6 +42,10 @@ public class Enemy : MonoBehaviour
    //this animator uses ints because the package I got uses ints, so I didn't want to touch it
    [SerializeField] private Animator animator;
    [SerializeField] private Transform firePoint;
+   //Later change this so this automatically gets assigned. maybe through the script that will manage object pooling?
+   //Also, if multiplayer is ever added, make this more dynamic;
+   //whichever player is the closest will get attacked, maybe.
+   [SerializeField] private Transform player;
    #endregion
    
    #region Enemy Properties
@@ -60,34 +64,138 @@ public class Enemy : MonoBehaviour
    private float baseSpeed => enemyBaseStats.baseSpeed;
    [SerializeField] private float currentChaseSpeed;
    private float baseChaseSpeed => enemyBaseStats.chaseSpeed;
+   [Header("State properties")]
+   private float basePatrolRange => enemyBaseStats.basePatrolRange;
+   [SerializeField]private float currentPatrolRange;
+   private float baseChaseRange => enemyBaseStats.baseChaseRange;
+   [SerializeField]private float currentChaseRange;
+   private float baseAttackRange => enemyBaseStats.baseAttackRange;
+   [SerializeField]private float currentAttackRange;
+   [SerializeField] private bool isAllowedToAttack;
   
    //Colliders
    private SphereCollider _headCollider;
    private CapsuleCollider _bodyCollider;
+
    #endregion
 
 
    private void Start()
    {
-      enemyBaseStats = CentralDataManager.instance.ReturnEnemyBaseStats();
-      currentHealth = baseHealth;
+      IntialiseEnemy();
       
       _headCollider = this.GetComponent<SphereCollider>();
       _bodyCollider = this.GetComponent<CapsuleCollider>();
       
       ToggleColliders(true);
    }
+
+
+   private void Update()
+   {
+      DetermineState();
+      ExecuteCurrentState();
+   }
+
+   private void IntialiseEnemy()
+   {
+      enemyBaseStats = CentralDataManager.instance.ReturnEnemyBaseStats();
+      currentHealth = baseHealth;
+      currentDamage = baseDamage;
+      currentSpeed = baseSpeed;
+      currentChaseSpeed = baseChaseSpeed;
+      currentPatrolRange = basePatrolRange;
+      currentChaseRange = baseChaseRange;
+      currentAttackRange = baseAttackRange;
+   }
    
-/// <summary>
-/// Used to take damage. If hit is passed, damage multiplier is applied for headshots
-/// </summary>
-/// <param name="damage"></param>
-/// <param name="hit"></param>
+   private void DetermineState()
+   {
+      if (currentState == State.Dead)
+      {
+         return;
+      }
+      
+      float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+      //Closest
+      if (distanceToPlayer <= currentAttackRange && isAllowedToAttack)
+      {
+         currentState = State.Attack;
+      }
+      //Medium
+      else if (distanceToPlayer <= currentChaseRange)
+      {
+         currentState = State.Chase;
+         currentSpeed = currentChaseSpeed;
+      }
+      //Far
+      else if (distanceToPlayer <= currentPatrolRange)
+      {
+         currentState = State.Patrol;
+         currentSpeed = baseSpeed;
+      }
+      else
+      {
+         currentState = State.Idle;
+         currentSpeed = baseSpeed;
+      }
+      
+      agent.speed = currentSpeed;
+   }
+
+   private void ExecuteCurrentState()
+   {
+      switch (currentState)
+      {
+         case State.Idle:
+            break;
+         
+         case State.Patrol:
+            PatrolLogic();
+            break;
+         
+         case State.Chase:
+            ChaseLogic();
+            break;
+         
+         case State.Attack:
+            AttackLogic();
+            break;
+         
+      }
+   }
+   private void PatrolLogic()
+   {
+      throw new NotImplementedException();
+   }
+
+   private void ChaseLogic()
+   {
+      agent.SetDestination(player.position);
+   }
+
+   private void AttackLogic()
+   {
+      agent.SetDestination(transform.position); //stop in place
+      transform.LookAt(player);
+      //Raycast of some sort
+      
+   }
+
+
+   /// <summary>
+   /// Used to take damage. If hit is passed, damage multiplier is applied for headshots
+   /// </summary>
+   /// <param name="damage"></param>
+   /// <param name="hit"></param>
    public void TakeDamage(float damage, RaycastHit hit = default)
    {
+      
+      //Headshot multiplier
       if (hit.collider != null)
       {
-         //Headshot collider
+         //Headshot collider is sphere
          if (hit.collider.GetType() == typeof(SphereCollider))
          {
             damage *= 4;
@@ -102,14 +210,10 @@ public class Enemy : MonoBehaviour
       }
    }
 
-   private void ToggleColliders(bool enabled)
-   {
-     _headCollider.enabled = enabled;
-     _bodyCollider.enabled = enabled;
-   }
-
    private void Die()
    { 
+      currentState = State.Dead;
+      
       ResetAllAnimatorParameters(true);
 
       ToggleColliders(false);
@@ -117,6 +221,12 @@ public class Enemy : MonoBehaviour
       Destroy(gameObject, 5f);
    }
 
+   private void ToggleColliders(bool _enabled)
+   {
+      _headCollider.enabled = _enabled;
+      _bodyCollider.enabled = _enabled;
+   }
+   
    #region Animation Functions
 
    /// <summary>

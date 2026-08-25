@@ -1,7 +1,7 @@
 {
   "baseHealth": 100,
-  "baseSpeed":  10,
-  "chaseSpeed":  20,
+  "baseSpeed":  5,
+  "chaseSpeed":  10,
   "baseDamage": 25,
   "basePatrolRange": 25,
   "baseChaseRange": 10,

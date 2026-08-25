@@ -3869,6 +3869,7 @@ GameObject:
   - component: {fileID: 675318080}
   - component: {fileID: 675318079}
   - component: {fileID: 675318078}
+  - component: {fileID: 675318082}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -3969,6 +3970,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675318082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675318077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 1
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.093333334
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 08d847708b476e64cb40e13b7031cb0e, type: 2}
+  m_BuildHeightMesh: 1
 --- !u!64 &711945988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6409,6 +6442,7 @@ GameObject:
   - component: {fileID: 1184550274}
   - component: {fileID: 1184550277}
   - component: {fileID: 1184550276}
+  - component: {fileID: 1184550278}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -6525,6 +6559,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.049219396, y: 2.2616022, z: 0.97905546}
   m_Center: {x: -0.00092130457, y: -0.16339351, z: 0.48399255}
+--- !u!208 &1184550278
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184550271}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.025, y: 1.131, z: 0.49}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.001, y: -0.163, z: 0.48400003}
+  m_TimeToStationary: 0.5
 --- !u!4 &1185291004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d8e6d689b4e88ae4ab8e8025d738c81f, type: 3}
@@ -9222,6 +9272,10 @@ MonoBehaviour:
     _atlasIndex: 45
   - _bindName: R
     _atlasIndex: 97
+  - _bindName: XXbox
+    _atlasIndex: 224
+  - _bindName: D-Pad RightXbox
+    _atlasIndex: 227
   crosshair: {fileID: 797410815}
   weaponName: {fileID: 381726421}
   ammoText: {fileID: 632367814}
@@ -11030,6 +11084,30 @@ PrefabInstance:
     - target: {fileID: 4995467018747376, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.0000066933344
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854350996145171327, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Height
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854350996145171327, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Radius
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6492852486077633202, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986111987820320308, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1982596835}
+    - target: {fileID: 7986111987820320308, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: isAllowedToAttack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083008054789495425, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
