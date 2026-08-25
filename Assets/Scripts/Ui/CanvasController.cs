@@ -151,6 +151,8 @@ public class CanvasController : MonoBehaviour
         break;
     }
     
+    print(bindName);
+    
     if (_bindGlyphLookupDictionary.TryGetValue(bindName, out var spriteIndex))
     {
       if (pressed)

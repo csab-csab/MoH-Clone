@@ -9222,6 +9222,10 @@ MonoBehaviour:
     _atlasIndex: 45
   - _bindName: R
     _atlasIndex: 97
+  - _bindName: XXbox
+    _atlasIndex: 224
+  - _bindName: D-Pad RightXbox
+    _atlasIndex: 227
   crosshair: {fileID: 797410815}
   weaponName: {fileID: 381726421}
   ammoText: {fileID: 632367814}
@@ -11030,6 +11034,14 @@ PrefabInstance:
     - target: {fileID: 4995467018747376, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.0000066933344
+      objectReference: {fileID: 0}
+    - target: {fileID: 6492852486077633202, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083008054789495425, guid: 50bb8ddc112af9940abeabee2a8d9935, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

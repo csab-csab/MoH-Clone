@@ -99,6 +99,8 @@ public class WeaponManager : MonoBehaviour
     inputHandler.OnReloadTriggered += TriggerReload;
     inputHandler.OnSwitchToPrimaryBtnPressed += CallSwitchWeaponRoutine;
     inputHandler.OnSwitchToSecondaryBtnPressed += CallSwitchWeaponRoutine;
+    inputHandler.OnToggleSwitchBtnPressed += CallSwitchWeaponRoutineToggle;
+    
 
     _isAllowedToSwitch = true;
   }
@@ -234,4 +236,13 @@ public class WeaponManager : MonoBehaviour
   {
     return inputHandler;
   }
+
+  private void CallSwitchWeaponRoutineToggle()
+  {
+    int v = 0;
+    v = currentlyEquipped == primarySlot ? -1 :  1;
+
+    _weaponSwitchRoutine = StartCoroutine(SwitchWeapon(v));
+  }
+  
 }
