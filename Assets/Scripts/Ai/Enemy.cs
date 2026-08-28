@@ -337,6 +337,8 @@ public class Enemy : MonoBehaviour
    { 
       currentState = State.Dead;
       
+      agent.SetDestination(transform.position);
+      
       ResetAllAnimatorParameters(true);
 
       ToggleColliders(false);
