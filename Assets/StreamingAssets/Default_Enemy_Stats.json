@@ -1,9 +1,12 @@
 {
   "baseHealth": 100,
-  "baseSpeed":  5,
-  "chaseSpeed":  10,
+  "baseSpeed":  2.5,
+  "chaseSpeed":  5,
   "baseDamage": 25,
   "basePatrolRange": 25,
   "baseChaseRange": 10,
-  "baseAttackRange": 5
+  "baseAttackRange": 5,
+  "basePatrolRadius": 5,
+  "baseMinWaitTime": 1,
+  "baseMaxWaitTime": 3
 }
