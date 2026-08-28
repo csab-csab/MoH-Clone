@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 730f5b96ee774c54ab124e47ec674653, type: 3}
-  m_Name: M1 Garand
+  m_Name: STG-44
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  weaponName: M1 Garand
-  damage: 55
-  range: 100
-  fireType: 0
-  fireRate: 400
-  magSize: 8
-  maxCarryCapacity: 24
-  reloadTime: 1.45
-  equipTime: 0.7
+  weaponName: STG-44
+  damage: 35
+  range: 50
+  fireType: 1
+  fireRate: 550
+  magSize: 31
+  maxCarryCapacity: 90
+  reloadTime: 3
+  equipTime: 0.8
   holsterTime: 0.5

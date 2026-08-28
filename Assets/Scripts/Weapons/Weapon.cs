@@ -39,12 +39,10 @@ public class Weapon : MonoBehaviour
     private float _timeSinceLastShot;
 
     public bool isReloadPromptActive = false;
-  
 
     //Used for debugging the raycast
     private Transform _drawFrom;
-    
-    
+
     [Header("Animation")]
     [SerializeField] private Animator animator;
     [Tooltip("Assign override controller here")]
@@ -95,7 +93,10 @@ public class Weapon : MonoBehaviour
             Debug.Log("Playing empty click");
             return;
         }
-
+        
+        //Used for fire rate
+        //Determines if enough time has passed between shots
+        //if no returns false
         if (!CanShoot())
         {
             return;

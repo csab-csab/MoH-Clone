@@ -27,7 +27,8 @@ public class WeaponManager : MonoBehaviour
   public enum Weapons
   {
     M1Garand,
-    M1911
+    M1911,
+    STG44
   };
   
   #region Weapon Switch Variables
@@ -67,6 +68,11 @@ public class WeaponManager : MonoBehaviour
     if (inputHandler.scrollInputNorm != Vector2.zero)
     {
       CallSwitchWeaponRoutine((int)inputHandler.scrollInputNorm.y);
+    }
+
+    if (inputHandler.isFireHeld && activeWeaponScript.ReturnTypeOfFire() == WeaponData.FireType.FullAuto)
+    {
+      activeWeaponScript.Shoot(cameraTransform);
     }
   }
 
