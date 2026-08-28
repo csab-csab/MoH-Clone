@@ -63,6 +63,11 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected GameObject shellCasingPrefab;
     [Header("Ejection force applied to the clip and shell casing")]
     [SerializeField] protected float ejectionForce;
+    [Header("Particle Effects")]
+    [SerializeField]private ParticleSystem muzzleFlashEffect;
+    [SerializeField]private Light muzzleFlashLight;
+    private float _muzzleFlashDuration => muzzleFlashEffect.main.duration;
+        
     
     //Automatically assigned by WeaponManager
     protected CanvasController _canvasController;
@@ -115,7 +120,8 @@ public class Weapon : MonoBehaviour
             } 
         }
         
-        //Play animation
+        PlayMuzzleFlash();
+        
         //Play animation
         //This is better than set trigger because when spamming shoot set trigger can lag behind
         //making the animation look poo
@@ -247,6 +253,24 @@ public class Weapon : MonoBehaviour
         Destroy(shellCasing, 3); 
     }
 
+    private void PlayMuzzleFlash()
+    {
+        if (muzzleFlashEffect == null || muzzleFlashLight == null)
+        {
+            Debug.LogError("MuzzleFlashEffect variables are not assigned");
+            return;
+        }
+        
+        StartCoroutine(MuzzleFlashEffect());
+    }
+
+    private IEnumerator MuzzleFlashEffect()
+    {
+        muzzleFlashEffect.Play();
+        muzzleFlashLight.enabled = true;
+        yield return new WaitForSeconds(_muzzleFlashDuration);
+        muzzleFlashLight.enabled = false;
+    }
     #endregion
     
     #region Audio
