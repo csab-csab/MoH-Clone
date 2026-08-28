@@ -428,7 +428,7 @@ public class Weapon : MonoBehaviour
             return;
         }
         
-        if ( !isReloadPromptActive && CurrentAmmo <= weaponData.magSize/4)
+        if ( !isReloadPromptActive && CurrentAmmo <= weaponData.magSize/4 && _currentCarriedAmmo > 0)
         {
             isReloadPromptActive = true;
             _canvasController.ShowPrompt("Weapons","Press", "Reload");
