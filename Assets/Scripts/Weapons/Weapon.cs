@@ -166,7 +166,6 @@ public class Weapon : MonoBehaviour
         //0.5 speed, for example.
         float animSpeedMultiplier = ReturnReloadAnimDuration() / weaponData.reloadTime;
 
-        animator.SetFloat(ReloadAnim, weaponData.reloadTime);
         animator.SetFloat(ReloadSpeed, animSpeedMultiplier);
         animator.SetTrigger(ReloadAnim);
         
@@ -359,7 +358,7 @@ public class Weapon : MonoBehaviour
             }
             else
             {
-                Debug.LogError("No equip clip was found.");
+                Debug.LogError("No Holster clip was found.");
             }
         }
         
@@ -379,7 +378,7 @@ public class Weapon : MonoBehaviour
             }
             else
             {
-                Debug.LogError("No equip clip was found.");
+                Debug.LogError("No reload clip was found.");
             }
         }
         

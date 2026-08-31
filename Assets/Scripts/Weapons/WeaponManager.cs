@@ -70,7 +70,7 @@ public class WeaponManager : MonoBehaviour
       CallSwitchWeaponRoutine((int)inputHandler.scrollInputNorm.y);
     }
 
-    if (inputHandler.isFireHeld && activeWeaponScript.ReturnTypeOfFire() == WeaponData.FireType.FullAuto)
+    if (inputHandler.isFireHeld && activeWeaponScript.ReturnTypeOfFire() == WeaponData.FireType.FullAuto && !activeWeaponScript.IsReloading())
     {
       activeWeaponScript.Shoot(cameraTransform);
     }
