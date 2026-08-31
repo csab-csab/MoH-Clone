@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 6492852486077633202}
   - component: {fileID: 9083008054789495425}
   - component: {fileID: 5854350996145171327}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SchutzStaffel_B_Prefab
   m_TagString: schutzstaffel_b
   m_Icon: {fileID: 0}
@@ -1025,6 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   currentState: 0
+  forcedState: 0
   enemyBaseStats:
     baseHealth: 0
     baseSpeed: 0
@@ -1033,6 +1034,9 @@ MonoBehaviour:
     basePatrolRange: 0
     baseChaseRange: 0
     baseAttackRange: 0
+    basePatrolRadius: 15
+    baseMinWaitTime: 1
+    baseMaxWaitTime: 3
   agent: {fileID: 5854350996145171327}
   animator: {fileID: 95201210022455478}
   firePoint: {fileID: 0}
@@ -1045,6 +1049,13 @@ MonoBehaviour:
   currentChaseRange: 0
   currentAttackRange: 0
   isAllowedToAttack: 0
+  currentPatrolRadius: 0
+  currentMinWaitTime: 0
+  currentMaxWaitTime: 0
+  walkStateName: 
+  attackStateName: 
+  _isWalkAnimActive: 0
+  _isAttackAnimActive: 0
 --- !u!135 &6492852486077633202
 SphereCollider:
   m_ObjectHideFlags: 0
