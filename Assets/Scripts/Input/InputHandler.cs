@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
 //Collects inputs and stores them so they can be accessed by other scripts
 public class InputHandler : MonoBehaviour
