@@ -106,11 +106,11 @@ public class Weapon : MonoBehaviour
 
         if (hit.transform != null)
         {
-            if (hit.transform.TryGetComponent<Enemy>(out var enemy))
+            if (hit.transform.TryGetComponent<IDamageable>(out var damageable))
             {
                 try
                 {
-                    enemy.TakeDamage(weaponData.damage, hit);
+                    damageable.TakeDamage(weaponData.damage, hit);
                 }
                 catch (Exception e)
                 {

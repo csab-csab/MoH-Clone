@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
@@ -29,9 +30,13 @@ public class PlayerInteract : MonoBehaviour
     private void CheckInteractionRaycast()
     {  
         //Raycast with longer range for crosshair colour change
-        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, 1000, raycastMask))
+        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, Mathf.Infinity, raycastMask))
         {
             _isLookingAtEnemy = raycastHit.transform.TryGetComponent<Enemy>(out _); 
+        }
+        else
+        {
+            _isLookingAtEnemy = false;
         }
         
         if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var hit, rayCastRange, raycastMask))

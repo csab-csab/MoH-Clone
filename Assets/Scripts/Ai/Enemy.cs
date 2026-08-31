@@ -30,7 +30,7 @@ public class EnemyBaseStats
 
 }
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
    #region Animation Names to hash
    private static readonly int Death = Animator.StringToHash("Status_death");
@@ -103,7 +103,6 @@ public class Enemy : MonoBehaviour
    //Colliders
    private SphereCollider _headCollider;
    private CapsuleCollider _bodyCollider;
-
    #endregion
 
    #region Animation
@@ -306,26 +305,26 @@ public class Enemy : MonoBehaviour
       
    }
 
+   //Field for particle effect
+
+
+
 
    /// <summary>
    /// Used to take damage. If hit is passed, damage multiplier is applied for headshots
    /// </summary>
    /// <param name="damage"></param>
    /// <param name="hit"></param>
-   public void TakeDamage(float damage, RaycastHit hit = default)
+   public void TakeDamage(float damage, RaycastHit hit)
    {
-      
-      //Headshot multiplier
-      if (hit.collider != null)
+      //Headshot collider is sphere
+      if (hit.collider.GetType() == typeof(SphereCollider))
       {
-         //Headshot collider is sphere
-         if (hit.collider.GetType() == typeof(SphereCollider))
-         {
-            damage *= 4;
-            print("Headshot!");
-         }
+         damage *= 4;
       }
       
+      PoolManager.instance.PlayBloodSplatter(hit.point, Quaternion.LookRotation(hit.normal));
+
       currentHealth -= damage;
       if (currentHealth <= 0)
       {
