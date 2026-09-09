@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.AI;
@@ -47,11 +48,12 @@ public class Enemy : MonoBehaviour, IDamageable
    [SerializeField] private NavMeshAgent agent;
    //this animator uses ints because the package I got uses ints, so I didn't want to touch it
    [SerializeField] private Animator animator;
-   [SerializeField] private Transform firePoint;
+   private Vector3 _raycastFrom;
    //Later change this so this automatically gets assigned. maybe through the script that will manage object pooling?
    //Also, if multiplayer is ever added, make this more dynamic;
    //whichever player is the closest will get attacked, maybe.
    [SerializeField] private Transform player;
+   [SerializeField] private LayerMask attackRaycastLayer;
    #endregion
    
    #region Enemy Properties
@@ -67,6 +69,8 @@ public class Enemy : MonoBehaviour, IDamageable
    
    [SerializeField] private float currentDamage;
    private float baseDamage => enemyBaseStats.baseDamage;
+   //As a percentage (0.8f = 80%)
+   [SerializeField] private float currentAccuracy = 0.8f;
    
    [SerializeField] private float currentSpeed;
    private float baseSpeed => enemyBaseStats.baseSpeed;
@@ -103,6 +107,12 @@ public class Enemy : MonoBehaviour, IDamageable
    //Colliders
    private SphereCollider _headCollider;
    private CapsuleCollider _bodyCollider;
+
+   [Header("Turn away from obstacle raycast")] 
+   [SerializeField] private LayerMask obstacleLayer;
+   [SerializeField] private float obstacleRayCastRange;
+   private bool _needsToTurn = false;
+   private Quaternion _targetRotation;
    #endregion
 
    #region Animation
@@ -123,6 +133,8 @@ public class Enemy : MonoBehaviour, IDamageable
       _bodyCollider = this.GetComponent<CapsuleCollider>();
       
       ToggleColliders(true);
+      
+      _raycastFrom = transform.position + Vector3.up * agent.height;
    }
 
 
@@ -240,9 +252,37 @@ public class Enemy : MonoBehaviour, IDamageable
             SetAnimationParameter(walkStateName, 0);
             _isWalkAnimActive = false;
          }
+         
+         if (Physics.Raycast(_raycastFrom, transform.TransformDirection(Vector3.forward), 
+                out var hit, obstacleRayCastRange, obstacleLayer))
+         {
+            Vector3 lookDirection = hit.normal;
+
+            //Ensures character doesn't stare up when encountering a slope or something
+            if (lookDirection != Vector3.zero)
+            {
+               _targetRotation = Quaternion.LookRotation(lookDirection);
+               _needsToTurn = true;
+            }
+           
+         }
+         else
+         {
+            _needsToTurn = false;
+         }
       }
       else
       {
+         if (_needsToTurn)
+         {
+            transform.rotation = Quaternion.Slerp(transform.rotation, _targetRotation, Time.deltaTime * 10f);
+            // Stop turning once nearly aligned
+            if (Quaternion.Angle(transform.rotation, _targetRotation) < 1f)
+            {
+               _needsToTurn = false;
+            }
+         }
+         
          _waitTimer -= Time.deltaTime;
          if (_waitTimer <= 0)
          {
@@ -296,19 +336,27 @@ public class Enemy : MonoBehaviour, IDamageable
 
       if (!_isAttackAnimActive)
       {
-         SetAnimationParameter(attackStateName, 1);
+         SetAnimationParameter(walkStateName, 0);
+         SetAnimationParameter(attackStateName, 2);
          _isAttackAnimActive = true;
       }
-      
 
-      //Raycast of some sort
+
+      if (Physics.Raycast(_raycastFrom, transform.TransformDirection(Vector3.forward), out var hit,
+             currentAttackRange, attackRaycastLayer))
+      {
+         if (hit.transform.TryGetComponent(out PlayerVitals playerVitals))
+         {
+            float random = UnityEngine.Random.value;
+
+            if (random < currentAccuracy)
+            {
+               print("hit player");
+            }
+         }
+      }
       
    }
-
-   //Field for particle effect
-
-
-
 
    /// <summary>
    /// Used to take damage. If hit is passed, damage multiplier is applied for headshots
@@ -341,7 +389,8 @@ public class Enemy : MonoBehaviour, IDamageable
       ResetAllAnimatorParameters(true);
 
       ToggleColliders(false);
-      //Implement object pooling
+      
+      //Implement enemy pooling
       Destroy(gameObject, 5f);
    }
 
