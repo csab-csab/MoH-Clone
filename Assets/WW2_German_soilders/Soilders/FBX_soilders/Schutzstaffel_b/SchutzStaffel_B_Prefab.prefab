@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4204211861985776}
   - component: {fileID: 137435242590777708}
   m_Layer: 0
-  m_Name: Luger_P08
+  m_Name: LugerP08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1048,6 +1048,17 @@ MonoBehaviour:
   currentAccuracy: 0.8
   currentSpeed: 0
   currentChaseSpeed: 0
+  _weaponsArray:
+  - Name: K98
+    WeaponObj: {fileID: 1782056413419458}
+  - Name: LugerP08
+    WeaponObj: {fileID: 1017892658058182}
+  - Name: MG42
+    WeaponObj: {fileID: 1559494803881042}
+  - Name: MP40
+    WeaponObj: {fileID: 1931371060967290}
+  - Name: STG44
+    WeaponObj: {fileID: 1547616336530034}
   currentPatrolRange: 0
   currentChaseRange: 0
   currentAttackRange: 0

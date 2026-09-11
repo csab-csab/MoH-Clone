@@ -66,7 +66,6 @@ public class Enemy : MonoBehaviour, IDamageable
    private float baseHealth => enemyBaseStats.baseHealth;
 
    [Header("Combat Properties")]
-   
    [SerializeField] private float currentDamage;
    private float baseDamage => enemyBaseStats.baseDamage;
    //As a percentage (0.8f = 80%)
@@ -77,6 +76,32 @@ public class Enemy : MonoBehaviour, IDamageable
    
    [SerializeField] private float currentChaseSpeed;
    private float baseChaseSpeed => enemyBaseStats.chaseSpeed;
+   
+   [Header("Enemy Weapons")]
+   [SerializeField] private Weapon[] _weaponsArray;
+   [SerializeField]private int _currentlyActiveWeapon;
+   private int _previousActiveWeapon;
+
+   public int currentlyActiveWeapon{
+      get => _currentlyActiveWeapon;
+      set
+      {
+         if (_currentlyActiveWeapon != value)
+         {
+            _currentlyActiveWeapon = value;
+            SetCurrentlyActiveWeapon(value);
+         }
+      }
+   }
+   
+   [System.Serializable]
+   private struct Weapon
+   {
+      public string Name;
+      public GameObject WeaponObj;
+   }
+   
+   
    
    [Header("State Properties")]
    
@@ -135,6 +160,8 @@ public class Enemy : MonoBehaviour, IDamageable
       ToggleColliders(true);
       
       _raycastFrom = transform.position + Vector3.up * agent.height;
+      
+      SetCurrentlyActiveWeapon(_currentlyActiveWeapon);
    }
 
 
@@ -398,6 +425,27 @@ public class Enemy : MonoBehaviour, IDamageable
    {
       _headCollider.enabled = _enabled;
       _bodyCollider.enabled = _enabled;
+   }
+
+   /// <summary>
+   /// Sets attack anim name and enables correct weapon gameobject on the enemy
+   /// </summary>
+   /// <param name="currentlyActive"></param>
+   private void SetCurrentlyActiveWeapon(int currentlyActive)
+   {
+      if (currentlyActive > _weaponsArray.Length-1)
+      {
+         Debug.LogError("Current weapon is out of bounds of weapons array.");
+         return;
+      }
+      
+      _weaponsArray[_previousActiveWeapon].WeaponObj.SetActive(false);
+      
+      _weaponsArray[currentlyActive].WeaponObj.SetActive(true);
+      
+      attackStateName = $"Status_{_weaponsArray[currentlyActive].Name}";
+
+      _previousActiveWeapon =  currentlyActive;
    }
    
    #region Animation Functions
