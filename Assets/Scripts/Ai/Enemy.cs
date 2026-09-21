@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.IO;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -66,6 +67,7 @@ public class Enemy : MonoBehaviour, IDamageable
    private float baseHealth => enemyBaseStats.baseHealth;
 
    [Header("Combat Properties")]
+   
    [SerializeField] private float currentDamage;
    private float baseDamage => enemyBaseStats.baseDamage;
    //As a percentage (0.8f = 80%)
@@ -79,29 +81,37 @@ public class Enemy : MonoBehaviour, IDamageable
    
    [Header("Enemy Weapons")]
    [SerializeField] private Weapon[] _weaponsArray;
-   [SerializeField]private int _currentlyActiveWeapon;
+   [FormerlySerializedAs("_currentlyActiveWeapon")] [SerializeField]private int _activeWeaponIndex;
    private int _previousActiveWeapon;
 
    public int currentlyActiveWeapon{
-      get => _currentlyActiveWeapon;
+      get => _activeWeaponIndex;
       set
       {
-         if (_currentlyActiveWeapon != value)
+         if (_activeWeaponIndex != value)
          {
-            _currentlyActiveWeapon = value;
+            _activeWeaponIndex = value;
             SetCurrentlyActiveWeapon(value);
          }
       }
    }
+   private Weapon _activeWeapon => _weaponsArray[_activeWeaponIndex];
    
    [System.Serializable]
    private struct Weapon
    {
       public string Name;
       public GameObject WeaponObj;
+      //uses same weapon stats(except damage)
+      //as player weapons
+      public WeaponData WeaponData;
    }
    
-   
+   private float _timeSinceLastShot;
+   [SerializeField]private int _currentAmmo;
+   private bool _isReloading = false;
+   private ParticleSystem _muzzleFlash;
+   private Light _muzzleFlashLight;
    
    [Header("State Properties")]
    
@@ -138,12 +148,13 @@ public class Enemy : MonoBehaviour, IDamageable
    [SerializeField] private float obstacleRayCastRange;
    private bool _needsToTurn = false;
    private Quaternion _targetRotation;
+   
    #endregion
 
    #region Animation
    [FormerlySerializedAs("walkAnimationName")] 
    [SerializeField] private string walkStateName;
-   [SerializeField] private string attackStateName;
+   [FormerlySerializedAs("attackStateName")] [SerializeField] private string weaponStateName;
 
    [SerializeField]private bool _isWalkAnimActive = false;
    [SerializeField]private bool _isAttackAnimActive = false;
@@ -159,14 +170,15 @@ public class Enemy : MonoBehaviour, IDamageable
       
       ToggleColliders(true);
       
-      _raycastFrom = transform.position + Vector3.up * agent.height;
-      
-      SetCurrentlyActiveWeapon(_currentlyActiveWeapon);
+      SetCurrentlyActiveWeapon(_activeWeaponIndex);
    }
 
 
    private void Update()
    {
+      //ensures raycast is always from the enemy
+      _raycastFrom = transform.position + Vector3.up * agent.height;
+      
       DetermineState();
       ExecuteCurrentState();
    }
@@ -243,7 +255,7 @@ public class Enemy : MonoBehaviour, IDamageable
             PatrolLogic();
             if (_isAttackAnimActive)
             {
-               SetAnimationParameter(attackStateName, 0);
+               SetAnimationParameter(weaponStateName, 0);
                _isAttackAnimActive = false;
             }
             break;
@@ -252,7 +264,7 @@ public class Enemy : MonoBehaviour, IDamageable
             ChaseLogic();
             if (_isAttackAnimActive)
             {
-               SetAnimationParameter(attackStateName, 0);
+               SetAnimationParameter(weaponStateName, 0);
                _isAttackAnimActive = false;
             }
             break;
@@ -318,38 +330,6 @@ public class Enemy : MonoBehaviour, IDamageable
          }
       }
    }
-
-   /// <summary>
-   /// Chooses random point for the agent to move to within specified patrol radius.
-   /// </summary>
-   private void MoveToRandomPoint(float radius)
-   { 
-     //Random.insideUnitSphere, generates random x,y,z coordinate within 3D space,
-     //We multiply the result with specified radius to scale the offset so it lands within our radius
-     // Use insideUnitCircle on X/Z so it doesn't pick points in the sky/floor
-     Vector2 randomCircle = UnityEngine.Random.insideUnitCircle * radius;
-     Vector3 randomPosition = transform.position + new Vector3(randomCircle.x, 0, randomCircle.y);
-
-     //Looks at randomPos, searches in all direction (up to radius distance) for the nearest valid walkable
-     //point on the baked navmesh
-     //if successful, returns true and stores this position in hit
-     if (NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, radius, NavMesh.AllAreas))
-     {
-        agent.SetDestination(hit.position);
-     }
-     else
-     {
-        Debug.LogError("No valid patrol point found near the enemy!");
-        return;
-     }
-
-     if (!_isWalkAnimActive)
-     {
-        SetAnimationParameter(walkStateName, 1);
-        _isWalkAnimActive = true;
-     }
-   }
-
    private void ChaseLogic()
    {
       agent.SetDestination(player.position);
@@ -364,26 +344,51 @@ public class Enemy : MonoBehaviour, IDamageable
       if (!_isAttackAnimActive)
       {
          SetAnimationParameter(walkStateName, 0);
-         SetAnimationParameter(attackStateName, 2);
+         SetAnimationParameter(weaponStateName, 2);
          _isAttackAnimActive = true;
       }
 
-
-      if (Physics.Raycast(_raycastFrom, transform.TransformDirection(Vector3.forward), out var hit,
-             currentAttackRange, attackRaycastLayer))
+      if (!CanShoot())
       {
-         if (hit.transform.TryGetComponent(out PlayerVitals playerVitals))
-         {
-            float random = UnityEngine.Random.value;
-
-            if (random < currentAccuracy)
-            {
-               print("hit player");
-            }
-         }
+         return;
       }
       
+      Shoot();
    }
+   
+   /// <summary>
+   /// Chooses random point for the agent to move to within specified patrol radius.
+   /// </summary>
+   private void MoveToRandomPoint(float radius)
+   { 
+      //Random.insideUnitSphere, generates random x,y,z coordinate within 3D space,
+      //We multiply the result with specified radius to scale the offset so it lands within our radius
+      // Use insideUnitCircle on X/Z so it doesn't pick points in the sky/floor
+      Vector2 randomCircle = UnityEngine.Random.insideUnitCircle * radius;
+      Vector3 randomPosition = transform.position + new Vector3(randomCircle.x, 0, randomCircle.y);
+
+      //Looks at randomPos, searches in all direction (up to radius distance) for the nearest valid walkable
+      //point on the baked navmesh
+      //if successful, returns true and stores this position in hit
+      if (NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, radius, NavMesh.AllAreas))
+      {
+         agent.SetDestination(hit.position);
+      }
+      else
+      {
+         Debug.LogError("No valid patrol point found near the enemy!");
+         return;
+      }
+
+      if (!_isWalkAnimActive)
+      {
+         SetAnimationParameter(walkStateName, 1);
+         _isWalkAnimActive = true;
+      }
+   }
+   
+
+   #region Damage and Death
 
    /// <summary>
    /// Used to take damage. If hit is passed, damage multiplier is applied for headshots
@@ -421,12 +426,15 @@ public class Enemy : MonoBehaviour, IDamageable
       Destroy(gameObject, 5f);
    }
 
+   #endregion
+
    private void ToggleColliders(bool _enabled)
    {
       _headCollider.enabled = _enabled;
       _bodyCollider.enabled = _enabled;
    }
 
+   #region Enemy Weapon Functions
    /// <summary>
    /// Sets attack anim name and enables correct weapon gameobject on the enemy
    /// </summary>
@@ -443,11 +451,97 @@ public class Enemy : MonoBehaviour, IDamageable
       
       _weaponsArray[currentlyActive].WeaponObj.SetActive(true);
       
-      attackStateName = $"Status_{_weaponsArray[currentlyActive].Name}";
+      weaponStateName = $"Status_{_weaponsArray[currentlyActive].Name}";
 
       _previousActiveWeapon =  currentlyActive;
+
+      _currentAmmo = _activeWeapon.WeaponData.magSize;
+
+      AnimationPositionController apc = _activeWeapon.WeaponObj.GetComponent<AnimationPositionController>();
+      
+      _muzzleFlash = apc.ReturnMuzzleFlash();
+      _muzzleFlashLight = apc.ReturnMuzzleFlashLight();
+   }
+
+   private bool CanShoot()
+   {
+      if (_currentAmmo <= 0)
+      {
+         if (!_isReloading)
+         {
+            StartCoroutine(ReloadWeapon());
+         }
+        
+         return false;
+      }
+
+      //calculate fire rate in Seconds Per Round
+      var timeBetweenShots = 60f / _activeWeapon.WeaponData.fireRate;
+
+      if ((Time.time - _timeSinceLastShot) >= timeBetweenShots)
+      {
+         _timeSinceLastShot = Time.time;
+         return true;
+      }
+
+      return false;
+   }
+
+   private void Shoot()
+   {
+      if (Physics.Raycast(_raycastFrom, transform.TransformDirection(Vector3.forward), out var hit,
+             currentAttackRange, attackRaycastLayer))
+      {
+         _currentAmmo--;
+         StartCoroutine(MuzzleFlashEffect());
+
+         if (hit.transform.TryGetComponent(out PlayerVitals playerVitals))
+         {
+            print("hit");
+            float random = UnityEngine.Random.value;
+
+            print(random);
+            
+            if (random < currentAccuracy)
+            {
+               playerVitals.TakeDamage(currentDamage);
+            }
+         }
+      }
    }
    
+   private IEnumerator ReloadWeapon()
+   {
+      _isReloading = true;
+      SetAnimationParameter(weaponStateName, 3);
+      yield return new WaitForSeconds(_activeWeapon.WeaponData.reloadTime);
+      _currentAmmo = _activeWeapon.WeaponData.magSize;
+      
+      if (_isAttackAnimActive)
+      {
+         SetAnimationParameter(weaponStateName, 2);   
+      }
+      else
+      {
+         SetAnimationParameter(weaponStateName, 0);
+         _isAttackAnimActive = false;
+      }
+      
+      _isReloading = false;
+   }
+
+   private IEnumerator MuzzleFlashEffect()
+   {
+      float muzzleFlashDuration = _muzzleFlash.main.duration;
+      
+      _muzzleFlash.Play();
+      _muzzleFlashLight.enabled = true;
+      yield return new WaitForSeconds(muzzleFlashDuration);
+      _muzzleFlashLight.enabled = false;
+   }
+   
+   #endregion
+
    #region Animation Functions
 
    /// <summary>

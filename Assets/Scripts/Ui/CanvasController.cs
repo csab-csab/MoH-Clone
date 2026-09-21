@@ -51,6 +51,9 @@ public class CanvasController : MonoBehaviour
   [Header("Interact UI References")]
   [SerializeField]private TextMeshProUGUI interactText;
 
+  [Header("HealthBar")]
+  [SerializeField]
+  private Image healthBar;
  
 
   
@@ -100,6 +103,13 @@ public class CanvasController : MonoBehaviour
     }
     ammoText.text = $"{currentAmmo}/{carriedAmmo}";
   }
+
+  public void UpdateHealthBar(float currentHealth, float maximumHealth)
+  {
+    healthBar.fillAmount = currentHealth / maximumHealth;
+  }
+
+  #region Interact Prompt
 
   /// <summary>
   /// Used for showing interact prompts, includes embedded button glyphs
@@ -172,4 +182,7 @@ public class CanvasController : MonoBehaviour
   {
     interactText.text = string.Empty;
   }
+
+  #endregion
+  
 }
