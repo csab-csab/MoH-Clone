@@ -68,7 +68,6 @@ public class Enemy : MonoBehaviour, IDamageable
 
    [Header("Combat Properties")]
    
-   
    [SerializeField] private float currentDamage;
    private float baseDamage => enemyBaseStats.baseDamage;
    //As a percentage (0.8f = 80%)
@@ -111,6 +110,8 @@ public class Enemy : MonoBehaviour, IDamageable
    private float _timeSinceLastShot;
    [SerializeField]private int _currentAmmo;
    private bool _isReloading = false;
+   private ParticleSystem _muzzleFlash;
+   private Light _muzzleFlashLight;
    
    [Header("State Properties")]
    
@@ -455,6 +456,11 @@ public class Enemy : MonoBehaviour, IDamageable
       _previousActiveWeapon =  currentlyActive;
 
       _currentAmmo = _activeWeapon.WeaponData.magSize;
+
+      AnimationPositionController apc = _activeWeapon.WeaponObj.GetComponent<AnimationPositionController>();
+      
+      _muzzleFlash = apc.ReturnMuzzleFlash();
+      _muzzleFlashLight = apc.ReturnMuzzleFlashLight();
    }
 
    private bool CanShoot()
@@ -487,7 +493,7 @@ public class Enemy : MonoBehaviour, IDamageable
              currentAttackRange, attackRaycastLayer))
       {
          _currentAmmo--;
-         //muzzleflash
+         StartCoroutine(MuzzleFlashEffect());
 
          if (hit.transform.TryGetComponent(out PlayerVitals playerVitals))
          {
@@ -524,6 +530,16 @@ public class Enemy : MonoBehaviour, IDamageable
       _isReloading = false;
    }
 
+   private IEnumerator MuzzleFlashEffect()
+   {
+      float muzzleFlashDuration = _muzzleFlash.main.duration;
+      
+      _muzzleFlash.Play();
+      _muzzleFlashLight.enabled = true;
+      yield return new WaitForSeconds(muzzleFlashDuration);
+      _muzzleFlashLight.enabled = false;
+   }
+   
    #endregion
 
    #region Animation Functions
