@@ -14,6 +14,7 @@ public class WeaponManager : MonoBehaviour
   [Space(5)]
   [SerializeField] private InputHandler inputHandler;
   [SerializeField] private CanvasController canvasController;
+  [SerializeField] private CameraRecoil cameraRecoil;
   
   [Header("Reference to camera pivot transform; this is where we raycast")]
   [SerializeField]private Transform cameraTransform;
@@ -73,6 +74,7 @@ public class WeaponManager : MonoBehaviour
     if (inputHandler.isFireHeld && activeWeaponScript.ReturnTypeOfFire() == WeaponData.FireType.FullAuto && !activeWeaponScript.IsReloading())
     {
       activeWeaponScript.Shoot(cameraTransform);
+      cameraRecoil.ApplyRecoil();
     }
   }
 
@@ -209,6 +211,7 @@ public class WeaponManager : MonoBehaviour
   private void TriggerSingleShot() 
   {
     activeWeaponScript.Shoot(cameraTransform);
+    cameraRecoil.ApplyRecoil();
   }
 
   /// <summary>
