@@ -26,4 +26,12 @@ public class WeaponData : ScriptableObject
 
    public float equipTime;
    public float holsterTime;
+
+
+   //Controls the values that get added to target rotation; higher the val, more recoil
+    public Vector3 recoil;
+   //Controls how quickly camera returns to normal position after recoil was applied
+   public float returnSpeed;
+   //Controls how violently we transition into recoil
+   public float snappiness;
 }
