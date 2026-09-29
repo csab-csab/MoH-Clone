@@ -22,3 +22,6 @@ MonoBehaviour:
   reloadTime: 3
   equipTime: 0.8
   holsterTime: 0.5
+  recoil: {x: -2, y: 0.5, z: 0.35}
+  returnSpeed: 20
+  snappiness: 10

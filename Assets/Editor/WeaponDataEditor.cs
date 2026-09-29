@@ -37,6 +37,11 @@ public class WeaponDataEditor : Editor
         weaponData.equipTime = EditorGUILayout.FloatField("Equip Time", weaponData.equipTime);
         EditorGUILayout.LabelField("Amount of time(sec) it takes to put away (holster) weapon");
         weaponData.holsterTime = EditorGUILayout.FloatField("Holster Time", weaponData.holsterTime);
+
+        weaponData.recoil = EditorGUILayout.Vector3Field("Recoil Values (X:Pitch, Y:Yaw, Z:Tilt/Roll )", weaponData.recoil);
+        weaponData.returnSpeed =   EditorGUILayout.FloatField("Return Speed", weaponData.returnSpeed);     
+        weaponData.snappiness =   EditorGUILayout.FloatField("Snappiness", weaponData.snappiness);     
+        
         
         //Save Changes
         if (GUI.changed)
