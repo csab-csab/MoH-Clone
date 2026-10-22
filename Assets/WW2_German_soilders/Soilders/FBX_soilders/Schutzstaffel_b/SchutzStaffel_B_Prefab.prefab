@@ -1033,7 +1033,7 @@ MonoBehaviour:
     baseDamage: 0
     basePatrolRange: 0
     baseChaseRange: 0
-    baseAttackRange: 0
+    baseAttackRange: 10
     basePatrolRadius: 15
     baseMinWaitTime: 1
     baseMaxWaitTime: 3

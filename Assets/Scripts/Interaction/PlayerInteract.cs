@@ -30,7 +30,7 @@ public class PlayerInteract : MonoBehaviour
     private void CheckInteractionRaycast()
     {  
         //Raycast with longer range for crosshair colour change
-        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, Mathf.Infinity, raycastMask))
+        if (Physics.Raycast(rayCastFrom.position, rayCastFrom.forward, out var raycastHit, 10f, raycastMask))
         {
             _isLookingAtEnemy = raycastHit.transform.TryGetComponent<Enemy>(out _); 
         }

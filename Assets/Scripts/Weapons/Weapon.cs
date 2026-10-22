@@ -325,6 +325,11 @@ public class Weapon : MonoBehaviour
         return weaponData.holsterTime;
     }
 
+    public (Vector3, float, float) ReturnRecoilProfile()
+    {
+        return (weaponData.recoil, weaponData.returnSpeed, weaponData.snappiness);
+    }
+
     public float ReturnEquipAnimDuration()
     {
         //if the runtime anim controller is an override control which it is guaranteed to be but good to be safe

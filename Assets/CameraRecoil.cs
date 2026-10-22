@@ -16,7 +16,9 @@ public class CameraRecoil : MonoBehaviour
 
    public void ApplyRecoilProfile(Vector3 recoilProfile, float returnSpeed, float snappiness)
    {
-      throw new NotImplementedException();
+      _recoil = recoilProfile;
+      _returnSpeed = returnSpeed;
+      _snappiness = snappiness;
    }
 
    private void Update()

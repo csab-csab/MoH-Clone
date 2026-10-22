@@ -74,7 +74,11 @@ public class WeaponManager : MonoBehaviour
     if (inputHandler.isFireHeld && activeWeaponScript.ReturnTypeOfFire() == WeaponData.FireType.FullAuto && !activeWeaponScript.IsReloading())
     {
       activeWeaponScript.Shoot(cameraTransform);
-      cameraRecoil.ApplyRecoil();
+      
+      if (!activeWeaponScript.isEmpty)
+      {
+        cameraRecoil.ApplyRecoil();
+      }
     }
   }
 
@@ -194,6 +198,11 @@ public class WeaponManager : MonoBehaviour
         timer += Time.deltaTime;
         yield return null;
       }
+
+      //Saves use from having to write 3 separate functions
+      var recoilData = activeWeaponScript.ReturnRecoilProfile();
+      //apply recoil profile of current weapon
+      cameraRecoil.ApplyRecoilProfile(recoilData.Item1, recoilData.Item2, recoilData.Item3);
       
       //re-enable shooting
       activeWeaponScript.SetAllowedToShoot(true);
@@ -211,7 +220,12 @@ public class WeaponManager : MonoBehaviour
   private void TriggerSingleShot() 
   {
     activeWeaponScript.Shoot(cameraTransform);
-    cameraRecoil.ApplyRecoil();
+    
+    if (!activeWeaponScript.isEmpty)
+    {
+      cameraRecoil.ApplyRecoil();
+    }
+    
   }
 
   /// <summary>
