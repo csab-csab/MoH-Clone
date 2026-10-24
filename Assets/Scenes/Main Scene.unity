@@ -35977,7 +35977,7 @@ MonoBehaviour:
   cameraTransform: {fileID: 309742277}
   animator: {fileID: 7727686720729984403}
   primarySlot: 0
-  secondarySlot: 1
+  secondarySlot: 2
   currentlyEquipped: 0
 --- !u!1 &2024595392
 GameObject:
