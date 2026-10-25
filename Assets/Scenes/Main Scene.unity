@@ -21384,6 +21384,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06394ca714c1e2949893b41cdd0e44a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1082271958561512970, guid: 06394ca714c1e2949893b41cdd0e44a2, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -35776,6 +35780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   canvasController: {fileID: 1741343120}
+  armRig: {fileID: 309676288}
+  cameraPivot: {fileID: 309742277}
   baseHealth: 100
   currentHealth: 100
 --- !u!4 &1991608667 stripped
@@ -48394,6 +48400,9 @@ MonoBehaviour:
   breathSpeed: 1.5
   walkAmountX: 0.03
   walkAmountY: 0.01
+  deathAnimationDuration: 3
+  collapseSpeed: 4
+  headRotationSpeed: 300
 --- !u!1 &7743257633721756604
 GameObject:
   m_ObjectHideFlags: 0
