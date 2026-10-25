@@ -149,9 +149,19 @@ public class PlayerMovement : MonoBehaviour
     {
         return _isMoving;
     }
+
+    public bool ReturnIsCrouching()
+    {
+        return _isCrouching;
+    }
     
     public float ReturnCrouchSpeed()
     {
         return crouchSpeed;
+    }
+
+    public CharacterController ReturnCharacterController()
+    {
+        return _characterController;
     }
 }

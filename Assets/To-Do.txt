@@ -1,4 +1,4 @@
 -Clean up recoil files
--Implement each weapon applying recoil
+-Implement each weapon applying recoil Done 
 -make enemies respond to gunshots
--crosshair turn red, decrease range
+-crosshair turn red, decrease range Done
